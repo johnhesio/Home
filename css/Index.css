@@ -1,0 +1,73 @@
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #fff;
+    padding: 1rem 0 0 0;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-left {
+    padding: 0 0 0 5rem;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0 0 0 20rem;
+    font-size: large;
+}
+
+.header-right a {
+    padding: 1rem 2rem;
+    margin: 0 1.2rem;
+    color: #000000;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border: none;
+    border-radius: 50px;
+}
+
+.header-right a:hover{
+    background-color: #8B47FE;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}

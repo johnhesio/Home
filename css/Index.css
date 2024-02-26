@@ -1,3 +1,4 @@
+/** fonte **/
 .roboto-light {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -29,12 +30,14 @@
     font-style: italic;
 }
 
+/** header **/
 .header {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     color: #fff;
-    padding: 1rem 0 0 0;
+    height: 6rem;
+    align-items: center;
 }
 
 .header a {
@@ -42,20 +45,18 @@
 }
 
 .header-left {
-    padding: 0 0 0 5rem;
-    align-items: center;
+    padding: 0 0 0 5rem;    
 }
 
 .header-right {
     display: flex;
     flex: 1;
-    align-items: center;
     margin: 0 0 0 20rem;
     font-size: large;
 }
 
 .header-right a {
-    padding: 1rem 2rem;
+    padding: 1rem 20rem;
     margin: 0 1.2rem;
     color: #000000;
     font-size: 1.2rem;
@@ -71,3 +72,8 @@
     border-radius: 50px;
     color: #fff;
 }
+
+/** section - carrossel**/
+
+
+

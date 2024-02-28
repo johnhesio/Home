@@ -5,7 +5,7 @@
     const atuacao = defineAsyncComponent(() => import("./atuacao/atuacao.vue"));
     const cati = defineAsyncComponent(() => import("./cati/cati.vue"));
     const cases = defineAsyncComponent(() => import("./cases/cases.vue"));
-    export default defineComponent({name:"home",components:{topbar,carrossel,atuacao,cati}})
+    export default defineComponent({name:"home",components:{topbar,carrossel,atuacao,cati,cases}})
 
 </script>
 

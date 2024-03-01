@@ -1,37 +1,46 @@
 <script>
-import { createApp } from "vue";
+import { createApp, ref } from "vue";
 import Menubar from 'primevue/menubar';
 import { defineAsyncComponent, defineComponent } from "vue";
-export default defineComponent({ name: "topbar" })
-const items = ref([
-  {
-    label: Inicío
-  },
-  {
-    label: Nós
-  },
-  {
-    label: cases
-  },
-  {
-    label: Atuação
-  },
-  {
-    label: Contato
+export default defineComponent({
+  name: "topbar",
+  setup() {
+    let open = ref(false)
+    let links = [
+      { name: "Inicío", link: "#" },
+      { name: "Nós", link: "#" },
+      { name: "Cases", link: "#" },
+      { name: "Atuação", link: "#" },
+      { name: "Contato", link: "#" },
+    ]
+    function menuopen() {
+      open.value = !open.value
+    }
+    return {
+      links, open, menuopen
+    }
   }
-])
+})
+
 </script>
 
 <template>
-  <div class="Topbar-menu h-[90px] bg-slate-400 flex items-center">
-    <Menubar :model="items">
-      <div class="Topbar-img">
-        <img src="../../assets/Imagens/logo_irede.jpg" alt="" width="220px">
-      </div>
-      <div v-for="items">
-        
-      </div>
-    </Menubar>
+  <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center">
+    <div class="flex items-center cursor-pointer">
+      <img src="../../assets/Imagens/logo_irede.jpg" alt="" class="h-16">
+    </div>
+
+    <span @click="menuopen()" class="absolute md:hidden items-center right-6 top-5 cursor-pointer text-4xl">
+      <i :class="[open ? 'pi pi-times' : 'pi pi-bars']" style="font-size: 1.5rem"></i>
+    </span>
+
+    <ul
+      class="md:flex md:items-center text-lg md:px-0 px-7 md:pb-0 md:static absolute bg-white md:w-auto w-full duration-700 ease-in"
+      :class="[open ? 'left-0' : 'left-[-100%]']">
+      <li class="md:mx-6 md:my-0 my-6" v-for="link in links">
+        <a :href="link.link" class="text-x1 hover:text-purple-500">{{ link.name }}</a>
+      </li>
+    </ul>
   </div>
 </template>
 

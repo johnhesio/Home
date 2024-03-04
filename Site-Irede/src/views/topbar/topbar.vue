@@ -1,6 +1,5 @@
 <script>
 import { createApp, ref } from "vue";
-import Menubar from 'primevue/menubar';
 import { defineAsyncComponent, defineComponent } from "vue";
 export default defineComponent({
   name: "topbar",

@@ -60,7 +60,7 @@ export default defineComponent({
 
 <template>
   <Galleria :value="carouselSlides" :responsiveOptions="responsiveOptions" :numVisible="4" :circular="true"
-    :showItemNavigators="true" :showThumbnails="false">
+    :showItemNavigators="true" :showThumbnails="false" >
 
     <template #item="slotProps">
 
@@ -68,15 +68,17 @@ export default defineComponent({
         <img :src="slotProps.item.image" :alt="slotProps.item.image" style="width: 100%; display: block" />
         <div class="absolute top-0 left-0 h-screen md:px-20 px-10 py-10">
           <div class="md:w-[60%] md-screen md:flex md:flex-col md:justify-center w-[50%]">
-            <h1 v-if="slotProps.item.isPurple" class=" text-white md:text-6xl md:font-bold md:italic md:py-5 text-[18px] font-bold italic">{{
+            <h1 v-if="slotProps.item.isPurple"
+              class=" text-white md:text-6xl md:font-bold md:italic md:pt-20 text-[16px] font-bold italic">{{
     slotProps.item.title }}</h1>
-            <h1 v-else class="text-[#8b47fe] md:text-6xl md:font-bold md:italic md:py-5 text-[18px] font-bold italic">{{
+            <h1 v-else class="text-[#8b47fe] md:text-6xl md:font-bold md:italic md:pt-20 text-[16px] font-bold italic">
+              {{
     slotProps.item.title }}</h1>
             <p v-if="slotProps.item.isWhite" class="md:w-[50%] md:py-5 md:text-xl w-[50%] text-[12px] hidden md:block">
               {{ slotProps.item.imageText }}</p>
             <p v-else class="md:text-[#fff] md:w-[50%] md:py-5 md:text-xl hidden md:block">{{ slotProps.item.imageText
               }}</p>
-            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white rounded-full md:w-[20%] text-center md:py-2 hover:bg-purple-700 bg-black text-white text-[10px]
+            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white md:text-2xl rounded-full md:w-[30%] text-center md:py-2 hover:bg-purple-700 bg-black text-white text-[10px]
                px-2 py-1 mt-6">
               {{ slotProps.item.buttonText }} </a>
           </div>
@@ -88,16 +90,16 @@ export default defineComponent({
         <div class="absolute flex flex-row justify-end top-0 left-0 h-screen px-20">
           <div class="w-[45%] h-screen mflex flex-col justify-center">
             <h1 v-if="slotProps.item.isPurple"
-              class="md:text-white md:text-6xl md:font-bold md:italic md:py-5 text-sm font-bold italic">{{
+              class="md:text-white md:text-6xl md:font-bold md:italic md:pt-20 text-sm font-bold italic">{{
     slotProps.item.title }}</h1>
             <h1 v-else
-              class="text-[#8b47fe] md:text-5xl md:font-bold md:italic md:py-5 md:leading-tight text-xl font-bold italic pt-8">
+              class="text-[#8b47fe] md:text-5xl md:font-bold md:italic md:pt-20 md:leading-tight text-sm font-bold italic mt-7 pl-2">
               {{
     slotProps.item.title }}
             </h1>
             <p class="md:py-5 md:text-xl hidden md:block">{{ slotProps.item.imageText }}</p>
-            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white rounded-full md:w-[20%]
-              text-center md:py-2 hover:bg-purple-700 bg-black text-white text-[10px] px-2 py-1 mt-6">
+            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white rounded-full md:text-2xl md:w-[30%]
+              text-center md:py-2 md:px-12 hover:bg-purple-700 bg-black text-white text-[10px] px-2 py-1 mt-20 ml-2">
               {{slotProps.item.buttonText}} </a>
           </div>
         </div>

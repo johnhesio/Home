@@ -108,4 +108,6 @@ export default defineComponent({
   </Galleria>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>

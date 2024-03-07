@@ -24,7 +24,7 @@ export default defineComponent({
 </script>
 
 <template>
-  <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center">
+  <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center Prioridade">
     <div class="flex items-center cursor-pointer">
       <img src="../../assets/Imagens/logo_irede.jpg" alt="" class="h-16">
     </div>
@@ -43,4 +43,8 @@ export default defineComponent({
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.Prioridade{
+z-index: 10000;
+}
+</style>

@@ -44,7 +44,5 @@ export default defineComponent({
 </template>
 
 <style scoped>
-.Prioridade{
-z-index: 10000;
-}
+
 </style>

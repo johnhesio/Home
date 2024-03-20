@@ -1,14 +1,19 @@
 <script>
 import { createApp } from "vue";
 import { defineAsyncComponent, defineComponent } from "vue";
-const home = defineAsyncComponent(() => import("./views/Home.vue"));
-export default defineComponent({name:"App",components:{home}})
+const home = defineAsyncComponent(() => import("./views/Home/Home.vue"));
+const pdi = defineAsyncComponent(() => import("./views/Pdi/Pdi.vue"));
+export default defineComponent({ name: "App", components: { home } })
 </script>
 
 <template>
-  <home />
+  <main>
+    <router-view v-slot="{ Component }">
+      <transition name="scale" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+  </main>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

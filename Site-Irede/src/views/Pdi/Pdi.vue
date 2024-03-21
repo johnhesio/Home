@@ -1,6 +1,6 @@
 <script>
 import { defineComponent, defineAsyncComponent } from "vue";
-import Projeto_energia from "../../views/Pdi/projeto_energia/projeto_energia.vue";
+
 const topbar = defineAsyncComponent(() => import("../../views/Home/topbar/topbar.vue"));
 const desenvolvimento = defineAsyncComponent(() => import("../../views/Pdi/desenvolvimento/desenvolvimento.vue"));
 const educacao = defineAsyncComponent(() => import("../../views/Pdi/Educacao/educacao.vue"));

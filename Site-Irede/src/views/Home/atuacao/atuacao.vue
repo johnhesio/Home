@@ -18,7 +18,7 @@ export default defineComponent({
             {
                 image: image2,
                 name: "Capacitação",
-                buttonLink: "/pdi",
+                buttonLink: "/capacitacao",
                 buttonText: "Sabia Mais!",
             },
             {

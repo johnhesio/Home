@@ -3,6 +3,8 @@ import { createApp } from "vue";
 import { defineAsyncComponent, defineComponent } from "vue";
 const home = defineAsyncComponent(() => import("./views/Home/Home.vue"));
 const pdi = defineAsyncComponent(() => import("./views/Pdi/Pdi.vue"));
+const empreendedorismo = defineAsyncComponent(() => import("./views/Empreendedorismo/Empreendedorismo.vue"));
+const consultoria = defineAsyncComponent(() => import("./views/Consultoria/Consultoria.vue"));
 export default defineComponent({ name: "App", components: { home } })
 </script>
 

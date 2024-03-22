@@ -24,13 +24,13 @@ export default defineComponent({
             {
                 image: image3,
                 name: "Empreendedorismo",
-                buttonLink: "/pdi",
+                buttonLink: "/empreendedorismo",
                 buttonText: "Sabia Mais!",
             },
             {
                 image: image4,
                 name: "Consultoria",
-                buttonLink: "/pdi",
+                buttonLink: "/consultoria",
                 buttonText: "Sabia Mais!",
             },
         ]

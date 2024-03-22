@@ -45,9 +45,9 @@ export default defineComponent({
     </div>
      <!--Mobile-->
     <div class="md:hidden relative">
-        <div class="absolute top-10 left-28 w-[80%]">
-            <h1 class="pl-5 pt-5 text-[#8B47FE] font-bold text-4xl">HP IT Talent</h1>
-           
+        <div class="absolute top-10 w-full">
+            <h1 class="pl-32 pt-5 text-[#8B47FE] font-bold text-4xl">HP IT Talent</h1>
+
         </div>
         <img src="../../../assets/Imagens/capacitacao/capacitacao_hp_it_talent.png" alt="" class="w-[150px]">
     </div>

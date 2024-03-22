@@ -8,7 +8,7 @@ export default defineComponent({ name: "academy" })
     <div class="hidden md:block">
         <img src="../../../assets/Imagens/capacitacao/capacitacao_ios_tech_academy.jpg" alt="">
         <h1 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
-            RESTIC 10</h1>
+            iOS Tech Academy</h1>
         <div class=" flex flex-wrap">
             <div class="w-1/2 py-5 text-xl pl-3 ">
                 <h2

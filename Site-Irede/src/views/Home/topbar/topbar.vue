@@ -6,9 +6,9 @@ export default defineComponent({
   setup() {
     let open = ref(false)
     let links = [
-      { name: "Inicío", link: "/builder" },
-      { name: "Nós", link: "/builder" },
-      { name: "Cases", link: "/builder" },
+      { name: "Inicío", link: "/home" },
+      { name: "Nós", link: "/sobre" },
+      { name: "Cases", link: "/cases" },
       { name: "Atuação", link: "/builder" },
       { name: "Contato", link: "/builder" },
     ]
@@ -25,7 +25,7 @@ export default defineComponent({
 
 <template>
   <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center Prioridade">
-    <div class="flex items-center cursor-pointer">
+    <div class="flex items-center">
       <img src="../../../assets/Imagens/logo_irede.jpg" alt="" class="h-16">
     </div>
 

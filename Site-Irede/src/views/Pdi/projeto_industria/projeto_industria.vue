@@ -25,6 +25,7 @@ export default defineComponent({ name: "projeto_energia" })
                 </li>
                 <li>Processamento de imagens para controle de fluxos (pessoas, veículos, maquinas...);​
                 </li>
+                
             </ul>
             <ul
                 class="w-4/5 md:w-2/5 md:h-[320px] md:mb-10 list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4">

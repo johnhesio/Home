@@ -38,7 +38,7 @@ export default defineComponent({
 
 <template>
   <div class="w-full mx-auto relative">
-    <div class="md:flex p-4 shadow px-6 py-2 justify-between bg-purple-700">
+    <div class="md:flex p-4 shadow px-6 py-2 justify-between bg-[#8B47FE]">
       <div class="flex justify-center items-center md:items-start ml-[-30px] ">
         <img src="../../../assets/Imagens/irede_branca.png" alt="" class="h-20 pl-5">
       </div>

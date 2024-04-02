@@ -10,8 +10,8 @@ export default defineComponent({
 <template>
     <div class="bg-[#8b47fe] w-full">
         <div class="flex justify-center">
-            <video class="md:w-[1000px] w-[400px] py-10" autoplay>
-                <source src="../../../assets/Imagens/WhatsApp-Video-2023-08-14-at-07.53.42.mp4" type="video/mp4">
+            <video class="md:w-[1000px] w-[400px] py-10" controls>
+                <source src="../../../assets/Imagens/VIDEO IREDE SITE.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>

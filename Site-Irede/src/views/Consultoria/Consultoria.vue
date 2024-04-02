@@ -9,7 +9,7 @@ const relacionamento = defineAsyncComponent(() => import("../../views/Consultori
 const escolher = defineAsyncComponent(() => import("../../views/Consultoria/escolher/escolher.vue"));
 const rodape = defineAsyncComponent(() => import("../../views/Home/rodape/rodape.vue"));
 
-export default defineComponent({ name: "Pdi", components: { topbar, inovacao, servicos, estrategia, relacionamento, escolher, rodape } })
+export default defineComponent({ name: "Consultoria", components: { topbar, inovacao, servicos, estrategia, relacionamento, escolher, rodape } })
 </script>
 
 <template>

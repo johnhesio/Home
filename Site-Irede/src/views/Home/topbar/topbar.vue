@@ -10,7 +10,7 @@ export default defineComponent({
       { name: "Nós", link: "/sobre" },
       { name: "Cases", link: "/cases" },
       { name: "Atuação", link: "/builder" },
-      { name: "Contato", link: "/builder" },
+      { name: "Contato", link: "/contato" },
     ]
     function menuopen() {
       open.value = !open.value
@@ -25,9 +25,11 @@ export default defineComponent({
 
 <template>
   <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center Prioridade">
+
     <div class="flex items-center">
       <img src="../../../assets/Imagens/logo_irede.jpg" alt="" class="h-16">
     </div>
+
 
     <span @click="menuopen()" class="absolute md:hidden items-center right-6 top-5 cursor-pointer text-4xl">
       <i :class="[open ? 'pi pi-times' : 'pi pi-bars']" style="font-size: 1.5rem"></i>
@@ -43,6 +45,4 @@ export default defineComponent({
   </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

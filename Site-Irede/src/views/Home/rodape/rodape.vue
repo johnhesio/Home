@@ -24,7 +24,7 @@ export default defineComponent({
       },
       {
         buttonName: "Contato",
-        link: "#",
+        link: "/contato",
       },
     ]
 

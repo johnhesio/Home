@@ -6,7 +6,7 @@ const cases_de_sucesso = defineAsyncComponent(() => import("../../views/Cases/su
 const rodape = defineAsyncComponent(() => import("../../views/Home/rodape/rodape.vue"));
 
 
-export default defineComponent({ name: "Capacitacao", components: { topbar, cases_de_sucesso, rodape } })
+export default defineComponent({ name: "Cases", components: { topbar, cases_de_sucesso, rodape } })
 </script>
 
 <template>

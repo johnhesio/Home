@@ -1,6 +1,7 @@
 <script>
 import { createApp, ref } from "vue";
 import { defineAsyncComponent, defineComponent } from "vue";
+import { RouterLink } from "vue-router";
 export default defineComponent({
   name: "topbar",
   setup() {
@@ -9,7 +10,7 @@ export default defineComponent({
       { name: "Inicío", link: "/home" },
       { name: "Nós", link: "/sobre" },
       { name: "Cases", link: "/cases" },
-      { name: "Atuação", link: "/builder" },
+      { name: "Atuação", link: "/pdi" },
       { name: "Contato", link: "/contato" },
     ]
     function menuopen() {
@@ -26,9 +27,11 @@ export default defineComponent({
 <template>
   <div class="bg-white text-black py-3.5 px-6 shadow md:flex justify-between items-center Prioridade">
 
-    <div class="flex items-center">
-      <img src="../../../assets/Imagens/logo_irede.jpg" alt="" class="h-16">
-    </div>
+    <router-Link to="/home">
+      <div class="flex items-center">
+        <img src="../../../assets/Imagens/logo_irede_home.png" alt="" class="h-16">
+      </div>
+    </router-Link>
 
 
     <span @click="menuopen()" class="absolute md:hidden items-center right-6 top-5 cursor-pointer text-4xl">

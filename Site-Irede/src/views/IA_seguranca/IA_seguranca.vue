@@ -6,7 +6,7 @@ const topbar = defineAsyncComponent(() => import("../../views/Home/topbar/topbar
 const rodape = defineAsyncComponent(() => import("../../views/Home/rodape/rodape.vue"));
 
 
-export default defineComponent({ name: "ia_segurança", components: { topbar,  rodape } })
+export default defineComponent({ name: "ia_seguranca", components: { topbar,  rodape } })
 </script>
 
 <template>

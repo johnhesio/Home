@@ -1,46 +1,47 @@
-import Home from "../views/Home/Home.vue"
-import Pdi from "../views/Pdi/Pdi.vue"
-import Capacitacao from "../views/Capacitacao/Capacitacao.vue"
-import Empreendedorismo from "../views/Empreendedorismo/Empreendedorismo.vue"
-import Consultoria from "../views/Consultoria/Consultoria.vue"
-import Cases from "../views/Cases/Cases.vue"
-import Sobre_Nós from "../views/Sobre_nos/Sobre_nos.vue"
-import Energia from "../views/Energia/Energia.vue"
-import Saude from "../views/Saude/Saude.vue"
-import Industria from "../views/Industria/Industria.vue"
-import Sustentabilidade from "../views/Sustentabilidade/Sustentabilidade.vue"
-import Educacao from "../views/Educacao/Educacao.vue"
-import residencia from "../views/Residencia/Residencia.vue"
-import ead from "../views/EAD/Ead.vue"
-import ia_saude from "../views/IA_saude/IA_saude.vue"
-import ia_segurança from "../views/IA_segurança/IA_segurança.vue"
-import devops from "../views/Devops/Devops.vue"
-import dev_ios from "../views/Dev_ios/Dev_ios.vue"
-import visao from "../views/Visao/Visao.vue"
-import banco_dados from "../views/Banco_dados/Banco_dados.vue"
-import firmware from "../views/Firmware/Firmware.vue"
-import software from "../views/Software/Software.vue"
-import auto_comercial from "../views/Auto_comercial/Auto_comercial.vue"
-import auto_industrial from "../views/Auto_industrial/Auto_industrial.vue"
-import dev_software from "../views/Dev_software/Dev_software.vue"
-import protocolos from "../views/Protocolos/Protocolos.vue"
-import edu_imersiva from "../views/Edu_imersiva/Edu_imersiva.vue"
-import contato from "../views/Contato/Contato.vue"
+import Home from "../views/Home/Home.vue";
+import Pdi from "../views/Pdi/Pdi.vue";
+import Capacitacao from "../views/Capacitacao/Capacitacao.vue";
+import Empreendedorismo from "../views/Empreendedorismo/Empreendedorismo.vue";
+import Consultoria from "../views/Consultoria/Consultoria.vue";
+import Cases from "../views/Cases/Cases.vue";
+import Sobre_Nos from "../views/Sobre_nos/Sobre_nos.vue";
+import Energia from "../views/Energia/Energia.vue";
+import Saude from "../views/Saude/Saude.vue";
+import Industria from "../views/Industria/Industria.vue";
+import Sustentabilidade from "../views/Sustentabilidade/Sustentabilidade.vue";
+import Educacao from "../views/Educacao/Educacao.vue";
+import residencia from "../views/Residencia/Residencia.vue";
+import ead from "../views/EAD/Ead.vue";
+import ia_saude from "../views/IA_saude/IA_saude.vue";
+import ia_seguranca from "../views/IA_seguranca/IA_seguranca.vue";
+import devops from "../views/Devops/Devops.vue";
+import dev_ios from "../views/Dev_ios/Dev_ios.vue";
+import visao from "../views/Visao/Visao.vue";
+import banco_dados from "../views/Banco_dados/Banco_dados.vue";
+import firmware from "../views/Firmware/Firmware.vue";
+import software from "../views/Software/Software.vue";
+import auto_comercial from "../views/Auto_comercial/Auto_comercial.vue";
+import auto_industrial from "../views/Auto_industrial/Auto_industrial.vue";
+import dev_software from "../views/Dev_software/Dev_software.vue";
+import protocolos from "../views/Protocolos/Protocolos.vue";
+import edu_imersiva from "../views/Edu_imersiva/Edu_imersiva.vue";
+import contato from "../views/Contato/Contato.vue";
 
 import { createRouter, createWebHashHistory } from "vue-router";
- 
+
 const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     {
-      path: "/home",
+      path: "/",
+      alias: "/home",
       name: "home",
       component: Home,
     },
     {
       path: "/sobre",
-      name: "Sobre Nós",
-      component: Sobre_Nós,
+      name: "Sobre_Nos",
+      component: Sobre_Nos,
     },
     {
       path: "/contato",
@@ -54,7 +55,7 @@ const router = createRouter({
     },
     {
       path: "/capacitacao",
-      name: "Capacitação",
+      name: "Capacitacao",
       component: Capacitacao,
     },
     {
@@ -84,7 +85,7 @@ const router = createRouter({
     },
     {
       path: "/educacao",
-      name: "Educação",
+      name: "Educacao",
       component: Educacao,
     },
     {
@@ -124,8 +125,8 @@ const router = createRouter({
     },
     {
       path: "/ia_seguranca",
-      name: "ia_segurança",
-      component: ia_segurança,
+      name: "ia_seguranca",
+      component: ia_seguranca,
     },
     {
       path: "/devops",
@@ -172,8 +173,7 @@ const router = createRouter({
       name: "edu_imersiva",
       component: edu_imersiva,
     },
-        
   ],
 });
- 
+
 export default router;

@@ -30,7 +30,7 @@ export default defineComponent({ name: "interacao", })
     </div>
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[50%] flex justify-center md:py-5">
-            <img src="../../../assets/Imagens/cases_de_sucesso/educacao_imersiva/educacao_imersiva_img03.jpg" alt=""
+            <img src="../../../assets/Imagens/cases_de_sucesso/educacao_imersiva/capacitacao_restic_12_img_02.png" alt=""
                 class="w-[50%] rounded-2xl hidden md:block">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
@@ -45,7 +45,6 @@ export default defineComponent({ name: "interacao", })
         </div>
     </div>
     <div class="w-full flex md:flex-row flex-col">
-        
         <div class="md:w-1/2 md:py-5 md:text-left text-center md:ml-36 px-4">
             <div class="md:pb-8 pb-4">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Estímulo à Inovação e Criatividade</h2>
@@ -53,7 +52,7 @@ export default defineComponent({ name: "interacao", })
                     torna um catalisador para a inovação e a criatividade. Os alunos são desafiados a pensar
                     criticamente, a resolver problemas de maneiras únicas e a desenvolver habilidades que transcendem os
                     limites convencionais da educação.</p>
-            </div>
+            </div> 
         </div>
         <div class="md:w-[50%] flex justify-center md:py-5">
             <img src="../../../assets/Imagens/cases_de_sucesso/educacao_imersiva/educacao_imersiva_img04.png"

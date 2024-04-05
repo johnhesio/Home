@@ -28,7 +28,7 @@ export default defineComponent({
                 imageAlt: "Residência em Desen. de Aplicativos",
                 imageTitle: "Residência em Desen. de Aplicativos",
                 imageText: "Apps que Elevam Experiências e conectam Ideias Atividade",
-                buttonLink: "/residendcia",
+                buttonLink: "/residencia",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
             {
@@ -47,14 +47,8 @@ export default defineComponent({
                 buttonLink: "/ia_saude",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-            {
-                image: image4,
-                imageAlt: "IA Aplicada a Segurança",
-                imageTitle: "IA Aplicada a Segurança",
-                imageText: "Visão Clara, Ação Rápida: IA e Visão Computacional Unidas na Transformação da Fiscalização.",
-                buttonLink: "/ia_seguranca",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
+          
+            
             {
                 image: image5,
                 imageAlt: "DevOps Básico e Quality Assurance",
@@ -63,62 +57,9 @@ export default defineComponent({
                 buttonLink: "/devops",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-            {
-                image: image6,
-                imageAlt: "Desenvolvimento IOS",
-                imageTitle: "Desenvolvimento IOS",
-                imageText: "Projetos de desenvolvimento para IOS para Mackbooks, iphone, ipad e Vision Pro.",
-                buttonLink: "/dev_ios",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image7,
-                imageAlt: "Visão Computacional",
-                imageTitle: "Visão Computacional",
-                imageText: "Transformando Dados em Realidade.",
-                buttonLink: "/visao",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image8,
-                imageAlt: "Mobile e Banco de Dados",
-                imageTitle: "Mobile e Banco de Dados",
-                imageText: "Unindo Tecnologia e Eficiência.",
-                buttonLink: "/banco_dados",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image9,
-                imageAlt: "Sistemas Embarcados e Firmware",
-                imageTitle: "Sistemas Embarcados e Firmware",
-                imageText: "A Engenharia da Inovação que Transforma Desafios em Soluções.",
-                buttonLink: "/firmware",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image10,
-                imageAlt: "Software Básico",
-                imageTitle: "Software Básico",
-                imageText: "Transformando Fundamentos em Inovação.",
-                buttonLink: "/software",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image11,
-                imageAlt: "Automação Industrial",
-                imageTitle: "Automação Industrial",
-                imageText: "Inovação que Transforma Processos.",
-                buttonLink: "/auto_industrial",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
-            {
-                image: image12,
-                imageAlt: "Automação Comercial e Software de Aplicativo",
-                imageTitle: "Automação Comercial e Software de Aplicativo",
-                imageText: "Conectando Negócios, Simplificando Experiências: Transformando o Futuro do Comércio.",
-                buttonLink: "/auto_comercial",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
+            
+            
+            
             {
                 image: image13,
                 imageAlt: "Desenvolvimento de Software",
@@ -127,14 +68,7 @@ export default defineComponent({
                 buttonLink: "/dev_software",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-            {
-                image: image14,
-                imageAlt: "PD&I Desenvolvimento de Protocolos",
-                imageTitle: "PD&I Desenvolvimento de Protocolos",
-                imageText: "Protocolos Poderosos, Conexões sem Limites: Redes e Firmware, Moldando o Futuro da Comunicação",
-                buttonLink: "/procolos",
-                buttonIcon: "pi pi-chevron-circle-right",
-            },
+           
             {
                 image: image15,
                 imageAlt: "Educação Imersiva",

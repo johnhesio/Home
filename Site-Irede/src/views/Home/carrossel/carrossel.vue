@@ -60,7 +60,7 @@ export default defineComponent({
 
 <template>
   <Galleria :value="carouselSlides" :responsiveOptions="responsiveOptions" :numVisible="4" :circular="true"
-    :showItemNavigators="true" :showThumbnails="false" :autoPlay="true" :transitionInterval="4000">
+    :showItemNavigators="true" :showThumbnails="false" :autoPlay="true" :transitionInterval="5000">
 
     <template #item="slotProps">
 

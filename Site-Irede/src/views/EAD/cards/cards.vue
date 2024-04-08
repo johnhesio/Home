@@ -10,7 +10,7 @@ export default defineComponent({ name: "homero", })
         <div class="flex md:flex-row flex-wrap w-full justify-center py-5 bg-[#F8F8F8]">
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img01.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 01" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Aprendizagem Adaptativa</h1>
                 <p class="md:py-2">O diferencial da plataforma Homero reside na sua capacidade de adaptar-se às
                     necessidades individuais
@@ -23,7 +23,7 @@ export default defineComponent({ name: "homero", })
             </div>
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img02.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 02" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Mineração de Conteúdo</h1>
                 <p class="md:py-2">A Mineração de Conteúdo na plataforma Homero vai além da simples entrega de
                     informações. Utilizando algoritmos avançados, a plataforma identifica padrões nos dados de
@@ -34,7 +34,7 @@ export default defineComponent({ name: "homero", })
             </div>
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img03.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 03" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Diálogo Personalizado</h1>
                 <p class="md:py-2">A interação aluno plataforma é enriquecida por meio do Diálogo Personalizado, onde o
                     Homero se torna um guia adaptativo para o estudante. Esse diálogo vai além de respostas programadas,
@@ -44,7 +44,7 @@ export default defineComponent({ name: "homero", })
             </div>
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img04.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 04" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Visão Computacional</h1>
                 <p class="md:py-2">A incorporação de Visão Computacional no Homero eleva a interatividade a um novo
                     patamar. Recursos visuais e análises aprimoradas enriquecem o conteúdo educacional, proporcionando
@@ -54,7 +54,7 @@ export default defineComponent({ name: "homero", })
             </div>
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img05.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 05" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Resultados Impactantes</h1>
                 <p class="md:py-2">O Homero não é apenas uma plataforma de EAD; é uma ferramenta transformadora que
                     promove a personalização da aprendizagem, potencializando o desenvolvimento acadêmico. Estudantes se
@@ -64,7 +64,7 @@ export default defineComponent({ name: "homero", })
             </div>
             <div class="md:w-[32%] mx-2 my-2">
                 <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_img06.jpg"
-                    alt="" class="rounded-2xl">
+                    alt="Plataforma EAD Adaptativa Imagem 06" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Visão de Futuro</h1>
                 <p class="md:py-2">O Homero não apenas abraça as tecnologias emergentes, mas também antecipa o futuro da
                     educação. Ao integrar Aprendizagem Adaptativa, Mineração de Conteúdo, Diálogo Personalizado e Visão
@@ -72,10 +72,7 @@ export default defineComponent({ name: "homero", })
                     aprendizado eficiente, envolvente e verdadeiramente adaptativa.</p>
 
             </div>
-
-
         </div>
-
     </div>
 </template>
 

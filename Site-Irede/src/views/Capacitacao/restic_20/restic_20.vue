@@ -31,14 +31,14 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_20.jpg" alt="" class="w-full">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_20.jpg" alt="Restic 20" class="w-full">
         <div class="flex flex-warp">
             <div class="h-[400px] w-1/2 ml-6">
                 <h1 class="px-5 pt-5 text-3xl font-bold text-[#8B47FE]">Habilidades exploradas</h1>
                 <h2 class="px-5 text-xl text-[#8B47FE]">480 Horas</h2>
                 <div class=" flex flex-row flex-wrap">
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_01.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_01.svg" alt="Icone Restic 20 01"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Raciocínio Lógico</p>
@@ -46,7 +46,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_04.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_04.svg" alt="Icone Restic 20 04"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Inglês para profissional de TIC</p>
@@ -54,7 +54,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_02.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_02.svg" alt="Icone Restic 20 02"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Inovação e Empreendedorismo</p>
@@ -62,7 +62,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_05.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_05.svg" alt="Icone Restic 20 05"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Formação em TIC </p>
@@ -70,7 +70,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_03.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_03.svg" alt="Icone Restic 20 03"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Mentoria: comunicação e relacionamento interpessoal</p>
@@ -78,7 +78,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[120px] my-1 flex flex-row items-center">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_06.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_06.svg" alt="Icone Restic 20 06"
                             class="w-[100px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Imersão em empresa parceira na área de TIC</p>
@@ -88,13 +88,13 @@ export default defineComponent({
                 </div>
             </div>
             <div class="flex items-center">
-                <img src="../../../assets/Imagens/capacitacao/line_v.png" alt="" class="h-[90%]">
+                <img src="../../../assets/Imagens/capacitacao/line_v.png" alt="Linha" class="h-[90%]">
             </div>
             <div class="w-1/2 pl-14">
                 <h1 class="pt-8 text-3xl font-bold text-[#8B47FE]">Trilhas de TIC</h1>
                 <div class="flex flex-col">
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_07.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_07.svg" alt="Icone Restic 20 07"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Nuvem</p>
@@ -102,7 +102,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_08.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_08.svg" alt="Icone Restic 20 08"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Infraestrutura 5G</p>
@@ -110,7 +110,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_09.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_09.svg" alt="Icone Restic 20 09"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Fullstack</p>
@@ -118,7 +118,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_10.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_10.svg" alt="Icone Restic 20 10"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Inteligência Artificial</p>
@@ -126,7 +126,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_11.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_11.svg" alt="Icone Restic 20 11"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Java</p>
@@ -134,7 +134,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-2/3 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_12.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_12.svg" alt="Icone Restic 20 12"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Desenvolvimento Android</p>
@@ -142,7 +142,7 @@ export default defineComponent({
                         </div>
                     </div>
                     <div class="w-1/2 h-[50px] my-1 flex flex-row items-center mt-2">
-                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_13.svg" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/icones_restic 20/icon_restic20_13.svg" alt="Icone Restic 20 13"
                             class="w-[70px]">
                         <div class="flex flex-col">
                             <p class="font-bold text-2xl">Desenvolvimento iOS</p>
@@ -159,7 +159,7 @@ export default defineComponent({
             <h1 class="pl-5 pt-5 text-[#8B47FE] font-bold text-2xl">RESTIC 20</h1>
             <h2 class="pl-5 pt-1 text-[#8B47FE] font-bold">Capacita Brasil</h2>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_20_mobile.png" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_20_mobile.png" alt="Icone Restic 20 mobile" class="">
     </div>
 </template>
 <style></style>

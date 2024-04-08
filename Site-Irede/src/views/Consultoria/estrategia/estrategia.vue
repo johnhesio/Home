@@ -36,14 +36,14 @@ export default defineComponent({
         <div class="w-full flex flex-wrap justify-center mb-5">
             <div class="w-[40%] bg-[#F2F2F2] mx-2 rounded-xl">
                 <img src="../../../assets/Imagens/consultoria/icones_nossos_servicos/icon_estrategia_personalizada.svg"
-                    alt="" class="w-[80px]">
+                    alt="Icon Estrategia Personalizada" class="w-[80px]">
                 <h1 class="pl-5 pb-2 text-[#8b47fe] text-2xl font-bold">Estratégia Personalizada</h1>
                 <p class="pl-5 pb-2 w-[95%]">Desenvolvemos estratégias personalizadas alinhadas com seus objetivos
                     comerciais e de inovação.</p>
             </div>
             <div class="w-[40%] bg-[#F2F2F2] mx-2 rounded-xl">
                 <img src="../../../assets/Imagens/consultoria/icones_nossos_servicos//icon_escrita_especializada.svg"
-                    alt="" class="w-[80px]">
+                    alt="Icon Escrita Especializada" class="w-[80px]">
                 <h1 class="pl-5 pb-2 text-[#8b47fe] text-2xl font-bold">Escrita Especializada</h1>
                 <p class="pl-5 pb-2 w-[95%]">Elaboramos propostas e documentos necessários para garantir elegibilidade
                     em projetos subvencionados, destacando a singularidade e o potencial inovador do seu projeto.</p>

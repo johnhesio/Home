@@ -13,11 +13,11 @@ export default defineComponent({ name: "metaclassroom", })
                 <h1 class="font-bold md:text-6xl text-[18px] text-[#8b47fe] md:pb-10 w-[60%] pb-2">Educação em
                     Ambientes Imersivos</h1>
                 <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">O METACLASSROOM emerge como um case inspirador
-                    ao redesenhar os contornos tradicionais da educação, incorporando ambientes imersivos, gameficação e
+                    ao redesenhar os contornos tradicionais da educação, incorporando ambientes imersivos, gamificação e
                     interação avançada em Educação a Distância (EAD). Este projeto inovador não apenas abraça a
                     tecnologia, mas redefine a experiência educacional, proporcionando um ambiente de aprendizado
                     envolvente e eficaz.</p>
-                <a href="#"
+                <a href="https://api.whatsapp.com/send?phone=558538795344"
                     class="bg-black text-white md:w-[50%] w-[90%] text-center md:py-2 md:px-5 px-2 py-1 md:text-xl text-sm rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                     com a gente</a>
             </div>
@@ -26,7 +26,7 @@ export default defineComponent({ name: "metaclassroom", })
             class="w-full">
         <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-2 text-center py-2">O METACLASSROOM emerge como um case
             inspirador ao redesenhar os contornos tradicionais da educação, incorporando ambientes imersivos,
-            gameficação e interação avançada em Educação a Distância (EAD). Este projeto inovador não apenas abraça a
+            gamificação e interação avançada em Educação a Distância (EAD). Este projeto inovador não apenas abraça a
             tecnologia, mas redefine a experiência educacional, proporcionando um ambiente de aprendizado envolvente e
             eficaz.</p>
     </div>

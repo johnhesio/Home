@@ -14,7 +14,7 @@ export default defineComponent({
             {
                 image: image1,
                 cardTittle: "Avaliação Profunda",
-                cardText: "Realizamos uma análise detalhada das necessidades e oportunidades específicas do seu negócio, identificando áreas chave para inovação.",
+                cardText: "Realizamos uma análise detalhada das necessidades e oportunidades específicas do seu negócio, identificando áreas-chave para inovação.",
             },
             {
                 image: image2,

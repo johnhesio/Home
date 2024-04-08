@@ -44,14 +44,14 @@ export default defineComponent({
         <div class="h-[550px]">
             <h1 class="text-white md:text-7xl font-bold md:pl-28 md:py-12 md:text-left text-4xl text-center pt-5">Educação</h1>
             <div class="flex items-center md:py-3 md:pl-28 pl-5 py-1" v-for="link in links">
-                <img :src="link.image" alt="" class="md:w-[100px] w-[80px]">
+                <img :src="link.image" alt="Cards" class="md:w-[100px] w-[80px]">
                 <p class="text-white font-medium md:text-2xl md:pl-2 text-xl">{{ link.imageText }}</p>
             </div>
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
                 class="bg-black text-white md:px-8 px-6 md:py-3 py-1 md:ml-32 ml-20 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_educacao.png" alt="" class="hidden md:block md:w-[700px] mb-10">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_educacao.png" alt="Pdi segmento educação" class="hidden md:block md:w-[700px] mb-10">
     </div>
 </template>
 

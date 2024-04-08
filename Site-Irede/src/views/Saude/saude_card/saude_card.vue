@@ -26,14 +26,6 @@ export default defineComponent({ name: "saude_card" })
                     <li>Reconhecimento de objetos em 3D utilizando sinais lidar;
                     </li>
                 </ul>
-                Inteligência Artificial;
-                Visão Computacional;
-                Big Data;
-                Realidade Aumentada;
-                Deep Learn;
-                Robô Autônomos;
-                IoT;
-                Realidade Virtual;
                 <h2
                     class="text-[#8B47FE] md:text-4xl font-medium md:text-left text-2xl text-center py-3 md:pl-5 md:pb-5">
                     Tecnologia</h2>
@@ -57,9 +49,9 @@ export default defineComponent({ name: "saude_card" })
                 </ul>
             </div>
             <div class="w-2/5 md:mb-10 md:mx-10 my-2 pt-10 hidden md:block">
-                <img src="../../../assets/Imagens/pdi/pdi/competencias_por_segmento_saude_img01_vert.jpg" alt="" class="rounded-3xl">
+                <img src="../../../assets/Imagens/pdi/pdi/competencias_por_segmento_saude_img01_vert.jpg" alt="Segmento saúde imagem 01" class="rounded-3xl">
             </div>
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
                     class="bg-black text-white md:px-8 px-6 md:py-3 md:mb-5 mb-2 py-1 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                     com a gente</a>
         </div>

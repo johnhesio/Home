@@ -17,7 +17,7 @@ export default defineComponent({
             Microeletrônica</h2>
         <div class="flex flex-row">
             <div class="w-[40%] mb-10 ml-10 my-2 ">
-                <img src="../../../assets/Imagens/capacitacao/capacitacao_ci_brasil.jpg" alt=""
+                <img src="../../../assets/Imagens/capacitacao/capacitacao_ci_brasil.jpg" alt="Capacitação CI Brasil"
                     class="rounded-3xl w-full">
             </div>
             <div class="w-[50%] md:mb-10 md:mx-10 my-2 text-xl">
@@ -78,7 +78,7 @@ export default defineComponent({
                 </p>
             </div>
             <div class="w-[40%] mb-10 mr-10 my-2 pt-10 ">
-                <img src="../../../assets/Imagens/capacitacao/capacitacao_img2.jpg" alt="" class="rounded-3xl w-full">
+                <img src="../../../assets/Imagens/capacitacao/capacitacao_img2.jpg" alt="Capacitação Imagem 2" class="rounded-3xl w-full">
             </div>
         </div>
     </div>
@@ -88,7 +88,7 @@ export default defineComponent({
             <h1 class="pl-5 pt-5 text-[#8B47FE] font-bold text-2xl">CI Brasil</h1>
             <h2 class="pl-5 pt-1 text-[#8B47FE] font-bold">Microeletrônica</h2>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_ci_brasil_mobile.png" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_ci_brasil_mobile.png" alt="Capacitação CI Brasil Mobile" class="">
     </div>
 </template>
 <style></style>

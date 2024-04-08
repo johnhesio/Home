@@ -45,7 +45,7 @@ export default defineComponent({ name: "restic_10" })
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_10.jpg" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_10.jpg" alt="" class="Restic 10">
     </div>
     <!--Mobile-->
     <div class="md:hidden relative">
@@ -53,7 +53,7 @@ export default defineComponent({ name: "restic_10" })
             <h1 class="pl-5 pt-6 text-[#8B47FE] font-bold text-2xl">RESTIC 10</h1>
             <h2 class="pl-5 pt-1 text-[#8B47FE] font-bold">Plataforma EAD Adaptativa</h2>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_10_mobile.png" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_10_mobile.png" alt="Restic 10 Mobile" class="">
     </div>
 </template>
 

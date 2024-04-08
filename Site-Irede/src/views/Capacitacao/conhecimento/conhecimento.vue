@@ -72,7 +72,7 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacacao_areas_de_conhecimento.jpg" alt="" class="w-full">
+        <img src="../../../assets/Imagens/capacitacao/capacitacacao_areas_de_conhecimento.jpg" alt="Capacitação Área de conhecimento" class="w-full">
     </div>
     <div class="md:hidden">
         <h1

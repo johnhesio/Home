@@ -11,7 +11,7 @@ export default defineComponent({ name: "inteligencia_saude", })
             <div class="flex justify-center py-5">
 
                 <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_img01_mobile.jpg"
-                    alt="" class="w-[80%] rounded-2xl md:hidden">
+                    alt="Ia aplicada a saude" class="w-[80%] rounded-2xl md:hidden">
             </div>
 
             <div class="md:w-1/2 md:py-5 md:text-left text-center md:ml-36 px-4">
@@ -34,7 +34,7 @@ export default defineComponent({ name: "inteligencia_saude", })
             </div>
             <div class="md:w-[60%] flex justify-center py-5">
                 <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_img01.jpg"
-                    alt="" class="w-[50%] rounded-2xl hidden md:block">
+                    alt="Ia aplicada a saude" class="w-[50%] rounded-2xl hidden md:block">
             </div>
         </div>
     </div>

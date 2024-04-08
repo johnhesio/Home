@@ -39,7 +39,7 @@ export default defineComponent({
     <div class="relative w-full flex flex-col">
         <div class="top-0 md:absolute">
             <h1 class="md:text-[#fff] text-[#8B47FE] md:text-7xl font-bold md:pt-16 md:pb-10 pt-8 pb-8 md:text-left text-4xl text-center md:pl-10">
-                Industria 4.0</h1>
+                Indústria 4.0</h1>
             <div class="flex flex-row flex-wrap gap-4 md:ml-8 justify-center md:justify-start">
                 <div class="w-[45%] md:w-1/6 md:h-[270px] md:mx-2 bg-[#8B47FE] rounded-xl md:hover:scale-105 transition delay-150 duration-300 ease-in-out" v-for="link in links">
                     <div class="flex justify-center">
@@ -51,7 +51,7 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_industria.jpg" alt="" class="hidden md:block w-full"> 
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_industria.jpg" alt="Pdi Industria" class="hidden md:block w-full"> 
     </div>
 </template>
 

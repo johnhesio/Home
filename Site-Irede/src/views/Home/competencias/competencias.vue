@@ -26,7 +26,7 @@ export default defineComponent({
             },
             {
                 image: image3,
-                cardText: "Industria",
+                cardText: "Indústria",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/industria",
             },
@@ -63,7 +63,7 @@ export default defineComponent({
         <div class="rounded-2xl hidden md:block relative justify-center w-[200px] mb-5" v-for="link in links">
             <router-link :to="link.link">
                 <div class="rounded-2xl md:absolute top-8 ">
-                    <img :src="link.image" alt=""
+                    <img :src="link.image" alt="Cards"
                         class="w-full rounded-xl md:hover:scale-105 transition delay-150 duration-300 ease-in-out brightness-[.9]" />
                     <div class="w-full rounded-b-xl absolute bottom-0 flex ">
                         <p class="text-white font-bold pl-2">{{ link.cardText }}</p>

@@ -40,7 +40,7 @@ export default defineComponent({
         <div class="top-0 md:absolute">
             <h1
                 class="md:text-[#fff] text-[#8B47FE] md:text-7xl font-bold md:pt-16 md:pb-10 pt-8 pb-8 md:text-left text-4xl text-center md:pl-10">
-                Industria 4.0</h1>
+                Indústria 4.0</h1>
             <div class="flex flex-row flex-wrap gap-4 md:ml-8 justify-center md:justify-start">
                 <div class="w-[45%] md:w-1/6 md:h-[270px] md:mx-2 bg-[#8B47FE] rounded-xl md:hover:scale-105 transition delay-150 duration-300 ease-in-out"
                     v-for="link in links">
@@ -53,7 +53,7 @@ export default defineComponent({
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_industria.jpg" alt="" class="hidden md:block w-full">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_industria.jpg" alt="Pdi Segmento Industrial" class="hidden md:block w-full">
     </div>
     <div class="w-full">
         <div class="md:w-2/2 flex md:flex-row flex-col">
@@ -75,7 +75,7 @@ export default defineComponent({
                         </li>
                         <li>Detecção proativa de falhas em linhas de produção;​
                         </li>
-                        <li>Processamento de imagens para controle de fluxos (pessoas, veículos, maquinas...);​
+                        <li>Processamento de imagens para controle de fluxos (pessoas, veículos, máquinas...);​
                         </li>
                         <li>Sistema de reconhecimento facial;​
                         </li>
@@ -126,7 +126,7 @@ export default defineComponent({
         </div>
         <div class="flex justify-center">
 
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
             class="bg-black text-white md:px-8 px-6 md:py-3 md:my-5 my-2 py-1 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
             com a gente</a>
         </div>

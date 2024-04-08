@@ -8,10 +8,10 @@ export default defineComponent({ name: "agilidade", })
 <template>
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[50%] flex justify-center py-5">
-            <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_img02.jpg" alt=""
+            <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_img02.jpg" alt="Ia aplicada a saude"
                 class="w-[50%] rounded-2xl hidden md:block">
             <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_img02_mobile.jpg"
-                alt="" class="w-[80%] rounded-2xl md:hidden">
+                alt="Ia aplicada a saude" class="w-[80%] rounded-2xl md:hidden">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
             <div class="md:pb-8 pb-4">

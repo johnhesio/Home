@@ -23,7 +23,7 @@ export default defineComponent({ name: "capacitacoes" })
                 </div>
             </div>
             <div class="w-4/5 md:w-2/5 md:mb-10 md:mx-10 md:my-2 pt-10 hidden md:block">
-                <img src="../../../assets/Imagens/capacitacao/capacitacao_img.png" alt="" class="rounded-3xl">
+                <img src="../../../assets/Imagens/capacitacao/capacitacao_img.png" alt="Capacitação" class="rounded-3xl">
             </div>
         </div>
     </div>

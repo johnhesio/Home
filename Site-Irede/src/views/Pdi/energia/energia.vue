@@ -54,11 +54,11 @@ export default defineComponent({
                     </div>
                 </div>
             </div>
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
                 class="bg-black text-white md:px-8 md:ml-10 ml-20 px-6 md:py-3 py-3 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_energia.jpg" alt="" class="hidden md:block w-full"> 
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_energia.jpg" alt="Pdi Energia" class="hidden md:block w-full"> 
     </div>
 </template>
 

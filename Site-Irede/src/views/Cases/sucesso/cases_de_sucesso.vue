@@ -71,7 +71,7 @@ export default defineComponent({
                 image: image15,
                 imageAlt: "Educação Imersiva",
                 imageTitle: "Educação Imersiva",
-                imageText: "Conectando Mentes, Transformando Futuros: Uma Educação Imersiva, com Gameficação e Interação EAD. Aprendizado que Inspira, Conecta e Transforma",
+                imageText: "Conectando Mentes, Transformando Futuros: Uma Educação Imersiva, com Gamificação e Interação EAD. Aprendizado que Inspira, Conecta e Transforma",
                 buttonLink: "/edu_imersiva",
                 buttonIcon: "pi pi-chevron-circle-right",
             },

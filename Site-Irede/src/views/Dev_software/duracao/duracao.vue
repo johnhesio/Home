@@ -11,7 +11,7 @@ export default defineComponent({ name: "duracao", })
             <div class="flex justify-center py-5">
 
                 <img src="../../../assets/Imagens/cases_de_sucesso/restic_12_residencia_em_desenvolvimento_de_aplicativos/restic_12_residencia_em_desenvolvimento_de_aplicativos_img02_mobile.jpg"
-                alt="" class="w-[80%] rounded-2xl md:hidden">
+                alt="restic 12 residencia em desenvolvimento de aplicativos img02 mobile" class="w-[80%] rounded-2xl md:hidden">
             </div>
 
             <div class="md:w-1/2 md:py-5 md:text-left text-center md:ml-36 px-4">
@@ -33,12 +33,12 @@ export default defineComponent({ name: "duracao", })
             </div>
             <div class="md:w-[40%] flex justify-center py-5">
                 <img src="../../../assets/Imagens/cases_de_sucesso/restic_12_residencia_em_desenvolvimento_de_aplicativos/restic_12_residencia_em_desenvolvimento_de_aplicativos_img02.jpg"
-                alt="" class="w-[50%] rounded-2xl hidden md:block">
+                alt="restic 12 residencia em desenvolvimento de aplicativos img02 mobile" class="w-[50%] rounded-2xl hidden md:block">
             </div>
         </div>
     </div>
     <div class="flex justify-center">
-        <a href="#"
+        <a href="https://api.whatsapp.com/send?phone=558538795344"
         class="bg-black text-white md:w-[30%] md:mb-5 mb-4 text-center md:py-2 md:px-5 px-2 py-1 md:text-xl text-sm rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
         com a gente</a>
     </div>

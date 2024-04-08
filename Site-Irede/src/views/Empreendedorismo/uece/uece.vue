@@ -70,7 +70,7 @@ export default defineComponent({
             <div class="flex flex-row md:w-3/4 w-full md:px-0 px-5 py-2 justify-center">
                 <div class="md:w-[100px] w-[200px]">
                     <img src="../../../assets/Imagens/empreendedorismo/icones_empreendedorismo/icon_empreendedorismo_04.svg"
-                        alt="">
+                        alt="Empreendedorismo Icone">
                 </div>
                 <div class="md:w-[70%] flex items-center">
                     <p class="md:text-xl"><span class="font-bold">Apoio Financeiro:</span> Possibilidade de investimento

@@ -31,11 +31,11 @@ export default defineComponent({
                     </ul>
                 </div>
             </div>
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
                 class="bg-black text-white md:px-8 px-6 md:py-3 py-2 mb-4 md:ml-32 ml-20 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_tecnologias-3.png" alt="" class="hidden md:block w-full">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_tecnologias-3.png" alt="Pdi segmento Tecnologia" class="hidden md:block w-full">
     </div>
 </template>
 

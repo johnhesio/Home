@@ -57,12 +57,12 @@ export default defineComponent({ name: "residencia_seletiva", })
             </div>
             <div class="md:w-[40%] flex justify-center py-5">
                 <img src="../../../assets/Imagens/cases_de_sucesso/restic_10_capacitacao_e _residencia_em_tic/restic_10_capacitacao_e _residencia_em_tic_img03.jpg"
-                    alt="" class="w-[70%] rounded-2xl hidden md:block">
+                    alt="Restic 10 capacitação" class="w-[70%] rounded-2xl hidden md:block">
             </div>
         </div>
     </div>
     <div class="flex justify-center">
-        <a href="#"
+        <a href="https://api.whatsapp.com/send?phone=558538795344"
             class="bg-black text-white md:w-[30%] md:mb-5 mb-4 text-center md:py-2 md:px-5 px-2 py-1 md:text-xl text-sm rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
             com a gente</a>
     </div>

@@ -39,15 +39,15 @@ export default defineComponent({ name: "restic_12" })
                 </div>
                 <div class="">
                     <div class="flex w-full pt-10">
-                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_01.png" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_01.png" alt="Restic 12 01"
                             class="w-[280px] mx-5 rounded-xl">
-                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_02.png" alt=""
+                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_02.png" alt="Restic 12 02"
                             class="w-[280px] mx-5 rounded-xl">
                     </div>
                 </div>
             </div>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_fundo.jpg" alt="" class="w-full">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_fundo.jpg" alt="Restic 12 imagem de fundo" class="w-full">
     </div>
     <!--Mobile-->
     <div class="md:hidden relative">
@@ -55,7 +55,7 @@ export default defineComponent({ name: "restic_12" })
             <h1 class="pl-5 pt-5 text-[#8B47FE] font-bold text-2xl">RESTIC 12</h1>
             <h2 class="pl-5 pt-1 text-[#8B47FE] font-bold">Tecnologias Imersivas</h2>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_fundo_mobile.png" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_fundo_mobile.png" alt="Restic 12 mobile" class="">
     </div>
 </template>
 

@@ -40,7 +40,7 @@ export default defineComponent({
                 <img :src="link.image" alt="" class="md:w-[250px] w-[120px]">
             </div>
         </div>
-        <img src="../../../assets/Imagens/cliente_bg.png" alt="" class="md:pt-14 md:w-full absolute top-0 md:mt-[-100px] mt-[-20px]">
+        <img src="../../../assets/Imagens/cliente_bg.png" alt="Cliente Background" class="md:pt-14 md:w-full absolute top-0 md:mt-[-100px] mt-[-20px]">
     </div>
 </template>
 

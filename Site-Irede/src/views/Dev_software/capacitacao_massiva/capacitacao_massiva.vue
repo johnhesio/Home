@@ -9,9 +9,9 @@ export default defineComponent({ name: "capacitacao_massiva", })
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[40%] flex justify-center py-5">
             <img src="../../../assets/Imagens/cases_de_sucesso/restic_12_residencia_em_desenvolvimento_de_aplicativos/restic_12_residencia_em_desenvolvimento_de_aplicativos_img01.jpg"
-                alt="" class="w-[50%] rounded-2xl hidden md:block">
+                alt="restic_12 residencia em desenvolvimento de aplicativos" class="w-[50%] rounded-2xl hidden md:block">
             <img src="../../../assets/Imagens/cases_de_sucesso/restic_12_residencia_em_desenvolvimento_de_aplicativos/restic_12_residencia_em_desenvolvimento_de_aplicativos_img01_mobile.jpg"
-                alt="" class="w-[80%] rounded-2xl md:hidden">
+                alt="restic_12 residencia em desenvolvimento de aplicativos mobile" class="w-[80%] rounded-2xl md:hidden">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
             <div class="md:pb-8 pb-4">

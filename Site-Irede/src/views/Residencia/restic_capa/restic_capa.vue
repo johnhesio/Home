@@ -9,9 +9,9 @@ export default defineComponent({ name: "restic_capa", })
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[50%] flex justify-center py-5">
             <img src="../../../assets/Imagens/cases_de_sucesso/restic_10_capacitacao_e _residencia_em_tic/restic_10_capacitacao_e _residencia_em_tic_img01.jpg"
-                alt="" class="w-[50%] rounded-2xl hidden md:block">
+                alt="Restic 10" class="w-[50%] rounded-2xl hidden md:block">
             <img src="../../../assets/Imagens/cases_de_sucesso/restic_10_capacitacao_e _residencia_em_tic/restic_10_capacitacao_e _residencia_em_tic_img01_mobile.jpg"
-                alt="" class="w-[80%] rounded-2xl md:hidden">
+                alt="Restic 10" class="w-[80%] rounded-2xl md:hidden">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
             <div class="md:pb-8 pb-4">

@@ -42,10 +42,10 @@ export default defineComponent({
             <div class="w-3/5 md:w-1/4 md:h-[370px] md:mb-36 md:mx-10 my-2 md:hover:scale-105 transition delay-150 duration-300 ease-in-out"
                 v-for="link in links">
                 <img :src="link.image" :alt="link.imageAlt" class="rounded-3xl">
-                <p class="md:text-4xl font-bold text-[#8B47FE] md:w-[20%] md:py-5 text-2xl py-2"> {{ link.imageText }}
+                <p class="md:text-4xl font-bold text-[#8B47FE] md:w-[90%] md:py-5 text-2xl py-2"> {{ link.imageText }}
                 </p>
             </div>
-            <a href="#"
+            <a href="https://api.whatsapp.com/send?phone=558538795344"
                 class="bg-black text-white md:px-8 px-6 md:py-3 md:my-5 my-2 py-1 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>

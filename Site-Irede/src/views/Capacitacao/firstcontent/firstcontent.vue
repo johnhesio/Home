@@ -10,7 +10,7 @@ export default defineComponent({
 <template>
     <div class="flex flex-wrap justify-center md:text-xl">
         <div class="w-4/5 md:w-2/5 md:mb-10 md:mx-10 my-2 pt-10">
-            <img src="../../../assets/Imagens/capacitacao/capacitacao_capa.jpg" alt="" class="rounded-3xl">
+            <img src="../../../assets/Imagens/capacitacao/capacitacao_capa.jpg" alt="Capa da Capacitação" class="rounded-3xl">
         </div>
         <div class="w-4/5 md:w-2/5 h-[370px] md:mb-10 md:mx-10 my-2 ">
             <h1

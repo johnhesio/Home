@@ -11,7 +11,7 @@ export default defineComponent({
     <div class="w-full flex">
         <div class="md:w-3/4 grid content-center">
             <div class=" md:w-full flex md:flex-row flex-col md:my-5 my-2 items-center md:justify-end">
-                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_missao.svg" alt="" class="md:w-[200px] w-[150px]">
+                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_missao.svg" alt="Icone Missão" class="md:w-[200px] w-[150px]">
                 <div class="flex flex-col md:w-[50%] md:text-left text-center">
                     <h1 class="md:text-4xl font-bold text-[#8b47fe] text-2xl">Missão</h1>
                     <p class="w-full px-2 md:px-0">Promover a inovação, transformar vidas e liderar atividades de pesquisa,
@@ -20,7 +20,7 @@ export default defineComponent({
                 </div>
             </div>
             <div class="md:w-full flex md:flex-row flex-col md:my-5 my-2 items-center md:justify-end md:pr-44">
-                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_visao.svg" alt="" class="md:w-[200px] w-[150px]">
+                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_visao.svg" alt="Icone Visão" class="md:w-[200px] w-[150px]">
                 <div class="flex flex-col md:w-[50%] md:text-left text-center">
                     <h1 class="md:text-4xl font-bold text-[#8b47fe] text-2xl">Visão</h1>
                     <p class="w-full px-2 md:px-0">Tornar-se uma instituição científica e tecnológica (ICT) reconhecida por sua
@@ -29,7 +29,7 @@ export default defineComponent({
                 </div>
             </div>
             <div class="md:w-full flex md:flex-row flex-col md:my-5 my-2 items-center md:justify-end ">
-                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_valores.svg" alt="" class="md:w-[200px] w-[150px]">
+                <img src="../../../assets/Imagens/sobre_nos/icones_sobre_nos/icon_valores.svg" alt="Icone Valores" class="md:w-[200px] w-[150px]">
                 <div class="flex flex-col md:w-[50%] md:text-left text-center">
                     <h1 class="md:text-4xl font-bold text-[#8b47fe] text-2xl">Valor</h1>
                     <p class="w-full px-2 md:px-0">Valorização Incansável, Abraçamos a diversidade, Decisões Baseadas em Fatos, Foco
@@ -39,7 +39,7 @@ export default defineComponent({
 
         </div>
         <div class="md:w-[40%] hidden md:block">
-            <img src="../../../assets/Imagens/sobre_nos/icone_irede_sobre_nos_2.png" alt="" class="w-full">
+            <img src="../../../assets/Imagens/sobre_nos/icone_irede_sobre_nos_2.png" alt="Icone Irede" class="w-full">
         </div>
     </div>
 </template>

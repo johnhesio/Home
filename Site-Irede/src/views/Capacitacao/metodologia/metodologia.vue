@@ -75,7 +75,7 @@ export default defineComponent({
                     com a gente</a>
             </div>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacacao_metodologias.jpg" alt=""
+        <img src="../../../assets/Imagens/capacitacao/capacitacacao_metodologias.jpg" alt="Capacitação e Metodologias"
             class="hidden md:block w-full">
     </div>
 </template>

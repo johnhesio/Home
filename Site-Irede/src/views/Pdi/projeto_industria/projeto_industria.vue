@@ -23,7 +23,7 @@ export default defineComponent({ name: "projeto_energia" })
                 </li>
                 <li>Detecção proativa de falhas em linhas de produção;​
                 </li>
-                <li>Processamento de imagens para controle de fluxos (pessoas, veículos, maquinas...);​
+                <li>Processamento de imagens para controle de fluxos (pessoas, veículos, máquinas...);​
                 </li>
                 
             </ul>

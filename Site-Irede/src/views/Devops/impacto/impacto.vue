@@ -8,7 +8,7 @@ export default defineComponent({ name: "impacto", })
 <template>
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[50%] flex justify-center py-5 ">
-            <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico _e_quality_assurance/devops_basico _e_quality_assurance_img01.jpg"
+            <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico_e_quality_assurance/devops_basico_e_quality_assurance_img01.jpg"
                 alt="" class="md:w-[60%] w-[80%] rounded-2xl">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
@@ -22,7 +22,7 @@ export default defineComponent({ name: "impacto", })
         </div>
     </div>
     <div class="flex justify-center pb-10">
-        <a href="#"
+        <a href="https://api.whatsapp.com/send?phone=558538795344"
             class="bg-black text-white text-center md:py-2 md:px-5 px-2 py-1 md:text-xl text-sm rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
             com a gente</a>
     </div>

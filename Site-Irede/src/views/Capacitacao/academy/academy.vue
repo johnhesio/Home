@@ -6,7 +6,7 @@ export default defineComponent({ name: "academy" })
 
 <template>
     <div class="hidden md:block">
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_ios_tech_academy.jpg" alt="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_ios_tech_academy.jpg" alt="Capacitação ios tech academy">
         <h1 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
             iOS Tech Academy</h1>
         <div class=" flex flex-wrap">
@@ -47,7 +47,7 @@ export default defineComponent({ name: "academy" })
             </div>
         </div>
         <div class="flex justify-center">
-            <img src="../../../assets/Imagens/capacitacao/line.png" alt="" class="w-[95%]">
+            <img src="../../../assets/Imagens/capacitacao/line.png" alt="Linha" class="w-[95%]">
         </div>
         <div class=" flex flex-wrap">
             <div class="w-1/2 py-5 text-xl pl-3 ">

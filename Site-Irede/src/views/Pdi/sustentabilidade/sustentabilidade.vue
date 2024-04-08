@@ -35,13 +35,13 @@ export default defineComponent({
 
 <template>
     <div class="">
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_sustentabilidade_capa.jpg" alt="" class="w-full">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_sustentabilidade_capa.jpg" alt="Pdi Segmento Sustentabilidade" class="w-full">
         <h1 class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
             Sustentabilidade</h1>
         <div class="flex flex-wrap justify-center md:text-xl">
             <div class="w-3/5 md:w-1/4 md:h-[370px] md:mb-36 md:mx-10 my-2 md:hover:scale-105 transition delay-150 duration-300 ease-in-out" v-for="link in links">
                 <img :src="link.image" :alt="link.imageAlt" class="rounded-3xl">
-                <p class="md:text-4xl font-bold text-[#8B47FE] md:w-[20%] md:py-5 text-2xl py-2"> {{ link.imageText }}</p>
+                <p class="md:text-4xl font-bold text-[#8B47FE] md:w-[90%] md:py-5 text-2xl py-2"> {{ link.imageText }}</p>
             </div>
         </div>
     </div>

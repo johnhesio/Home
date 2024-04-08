@@ -58,8 +58,8 @@ export default defineComponent({
         <div class="rounded-2xl relative w-[350px] mb-5" v-for="link in links">
             <div class="bg-zinc-200 md:h-[750px] h-[600px] rounded-2xl">
                 <div class="rounded-2xl md:absolute ">
-                    <img :src="link.image" alt="" class="w-full rounded-xl hidden md:block" />
-                    <img :src="link.imageLogo" alt="" class="md:w-[200px] md:px-1">
+                    <img :src="link.image" alt="Imagens local" class="w-full rounded-xl hidden md:block" />
+                    <img :src="link.imageLogo" alt="Logotipo empresas" class="md:w-[200px] md:px-1">
                     <h2 class="font-bold md:pt-1 md:px-4 text-xl text-purple-700 px-2">{{ link.cardLocal }}</h2>
                     <div class="md:px-4 px-2">
                         <p class="font-bold text-xl pt-2">{{ link.cardTitle1 }}</p>

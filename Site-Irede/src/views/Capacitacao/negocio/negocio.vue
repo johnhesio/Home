@@ -31,7 +31,7 @@ export default defineComponent({
             </div>
             <div class="w-2/3 mx-2 flex flex-row mb-10">
                 <div class="w-1/3 bg-[#8B47FE] mx-2 rounded-2xl">
-                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card1.jpg" alt=""
+                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card1.jpg" alt="Capacitação do NNT 01"
                         class="rounded-t-2xl">
                     <h1 class="py-3 px-4 text-white font-bold text-2xl w-[80%]">Curso de Andoid ou IOS</h1>
                     <p class="py-3 px-4 text-white text-sm">Já pensou em se tornar desenvolvedor de aplicativos Android
@@ -40,7 +40,7 @@ export default defineComponent({
                         garantidas e altos salários.</p>
                 </div>
                 <div class="w-1/3 bg-[#8B47FE] mx-2 rounded-2xl">
-                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card2.jpg" alt=""
+                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card2.jpg" alt="Capacitação do NNT 02"
                         class="rounded-t-2xl">
                     <h1 class="py-3 px-4 text-white font-bold text-2xl w-[80%]">Formação Anual de 400 Horas</h1>
                     <p class="py-3 px-4 text-white text-sm">Durante 1 ano, você aprenderá a desenvolver aplicativos
@@ -48,7 +48,7 @@ export default defineComponent({
                         milhão de alunos dos institutos Federais do Brasil.</p>
                 </div>
                 <div class="w-1/3 bg-[#8B47FE] mx-2 rounded-2xl">
-                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card3.jpg" alt=""
+                    <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_card3.jpg" alt="Capacitação do NNT 03"
                         class="rounded-t-2xl">
                     <h1 class="py-3 px-4 text-white font-bold text-2xl w-[80%]">Empreendedorismo e Design</h1>
                     <p class="py-3 px-4 text-white text-sm">Mas tudo isso não se dará de forma individualizada. Os
@@ -65,7 +65,7 @@ export default defineComponent({
             <h1 class="pl-5 pt-5 text-[#8B47FE] font-bold text-2xl">NNT</h1>
             <h2 class="pl-5 pt-1 text-[#8B47FE] font-bold">Novos Negócios em TIC</h2>
         </div>
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_mobile.png" alt="" class="">
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_nnt_mobile.png" alt="Capacitação do NNT Mobile" class="">
     </div>
 </template>
 <style></style>

@@ -18,7 +18,7 @@ export default defineComponent({
                 Capacitação</h1>
             <p class="mb-10 md:w-2/3 text-center md:text-left ">
                 Promovemos através de nossas capacitações e residências tecnológicas, desenvolvimento econômico e
-                social, garantindo maior competitividade, promoção de tecnologias, inovação e atração e retenção de
+                social, garantindo maior competitividade, promoção de tecnologias, inovação, atração e retenção de
                 talentos aos nossos clientes.
             </p>
             <a href="#"

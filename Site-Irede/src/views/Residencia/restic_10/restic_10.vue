@@ -12,7 +12,7 @@ export default defineComponent({ name: "restic_10", })
                 <h2 class="font-bold md:text-4xl text-[#8b47fe] md:pb-2">RESTIC 10</h2>
                 <h1 class="font-bold md:text-7xl text-[24px] text-[#8b47fe] md:pb-10 md:w-[90%] w-[65%] pb-2">Capacitação e
                     Residência em TIC</h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">O RESTIC 10 emerge como um case de sucesso
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">O RESTIC 10 emerge como um <i>case</i> de sucesso
                     notável, proporcionando uma jornada transformadora para 200 jovens e profissionais em Tecnologias da
                     Informação e Comunicação (TIC). O programa evoluiu organicamente, progredindo para uma Residência em
                     Desenvolvimento de Software cuidadosamente selecionada, envolvendo 20 alunos em uma experiência de

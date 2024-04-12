@@ -43,7 +43,7 @@ export default defineComponent({
 
 <template>
     <div class="container mx-auto p-8 drop-shadow-lg">
-        <h1 class="text-2xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4">Áreas de atuação</h1>
+        <h1 class="text-xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4">Áreas de Atuação</h1>
         <div class="flex flex-row flex-wrap -mx-2">
             <div class="w-1/2 sm:w-1/4 md:w-1/4 mb-4 px-2" v-for="Link in links">
                 <div class="relative bg-white rounded border">

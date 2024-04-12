@@ -33,9 +33,9 @@ export default defineComponent({
 </script>
 
 <template>
-    <h1 class="text-black text-4xl font-bold text-center pt-7 md:text-4xl md:pt-2 pb-5">Clientes</h1>
+    <h1 class="text-black text-xl font-bold text-center pt-7 md:text-4xl md:pt-2 pb-5">Clientes</h1>
     <div class="md:w-full md:pt-5 relative flex justify-center mb-10">
-        <div class="md:w-[80%] flex flex-wrap bg-zinc-200 z-10 rounded-xl">
+        <div class="md:w-[80%] flex flex-wrap bg-zinc-200 z-10 rounded-xl justify-center">
             <div class="md:py-2 md:px-5 px-8 grayscale hover:grayscale-0 transition duration-300 ease-in-out" v-for="link in links">
                 <img :src="link.image" alt="" class="md:w-[250px] w-[120px]">
             </div>

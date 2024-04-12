@@ -53,7 +53,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <h1 class="text-black text-4xl font-bold text-center pt-7 md:text-4xl md:pt-2 ">Onde Estamos</h1>
+    <h1 class="text-black text-xl font-bold text-center pt-7 md:text-4xl md:pt-2 ">Onde Estamos</h1>
     <div class="md:w-full md:pt-10 pt-10 flex flex-col md:flex-row justify-center items-center md:items-start mb-10 gap-10">
         <div class="rounded-2xl relative w-[350px] mb-5" v-for="link in links">
             <div class="bg-zinc-200 md:h-[750px] h-[600px] rounded-2xl">

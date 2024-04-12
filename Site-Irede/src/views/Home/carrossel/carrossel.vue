@@ -1,8 +1,8 @@
 <script>
-import image1 from "../../../assets/Imagens/bg_1.png";
-import image2 from "../../../assets/Imagens/bg_2.png";
-import image3 from "../../../assets/Imagens/bg_3.png";
-import image4 from "../../../assets/Imagens/bg_4.png";
+import image1 from "../../../assets/Imagens/bg_1.jpg";
+import image2 from "../../../assets/Imagens/bg_2.jpg";
+import image3 from "../../../assets/Imagens/bg_3.jpg";
+import image4 from "../../../assets/Imagens/bg_4.jpg";
 import Galleria from "primevue/galleria";
 import { defineComponent } from "vue";
 export default defineComponent({
@@ -11,8 +11,8 @@ export default defineComponent({
   setup() {
     const carouselSlides = [{
       image: image1,
-      title: "Construindo Parcerias, Ampliando Horizontes! ",
-      imageText: "Explore as oportunidades que o Irede oferece aos nossos valiosos institutos parceiros.  Nossa missão é apoiar e potencializar suas iniciativas educacionais, proporcionando um ambiente dinâmico para crescimento conjunto, inovação e impacto positivo. ",
+      title: "Construindo Parcerias, Ampliando Horizontes. ",
+      imageText: "Explore as oportunidades que o IREDE oferece aos nossos valiosos institutos parceiros.  Nossa missão é apoiar e potencializar suas iniciativas educacionais, proporcionando um ambiente dinâmico para crescimento conjunto, inovação e impacto positivo. ",
       isPurple: false,
       cssClass: "Slide_1",
       left: true,
@@ -22,8 +22,8 @@ export default defineComponent({
     },
     {
       image: image2,
-      title: "Impulsione a Inovação, Conquiste o Futuro! ",
-      imageText: "Explore nossos recursos avançados, projetados para acelerar o ciclo de inovação em sua organização. Da pesquisa à implementação, o Irede oferece um ambiente colaborativo que amplia fronteiras e transforma ideias em realidade.",
+      title: "Impulsione a Inovação, Conquiste o Futuro. ",
+      imageText: "Explore nossos recursos avançados, projetados para acelerar o ciclo de inovação em sua organização. Da pesquisa à implementação, o IREDE oferece um ambiente colaborativo que amplia fronteiras e transforma ideias em realidade.",
       isPurple: true,
       cssClass: "Slide_2",
       left: true,
@@ -33,8 +33,8 @@ export default defineComponent({
     },
     {
       image: image3,
-      title: "Descubra nossos projetos de capacitação inovadores!",
-      imageText: "Projetados para impulsionar sua carreira e prepará-lo para os desafios do mundo digital. Prepare-se para explorar, aprender e crescer. Seu futuro começa aqui, no iRede.",
+      title: "Descubra nossos projetos de capacitação inovadores.",
+      imageText: "Projetados para impulsionar sua carreira e prepará-lo para os desafios do mundo digital. Prepare-se para explorar, aprender e crescer. Seu futuro começa aqui no IREDE.",
       cssClass: "Slide_3",
       left: false,
       isWhite: false,
@@ -44,7 +44,7 @@ export default defineComponent({
     {
       image: image4,
       title: "Você sabe onde está a base para construir inovação?",
-      imageText: "Está na Criatividade, na educação, na pesquisa e no desenvolvimento. É aí que o Irede entra em ação! Buscamos promover a inovação e transformar vidas por meio de capacitações, preparando as pessoas para o futuro.",
+      imageText: "Está na criatividade, na educação, na pesquisa e no desenvolvimento. É aí que o IREDE entra em ação. Buscamos promover a inovação e transformar vidas por meio de capacitações, preparando as pessoas para o futuro.",
       isPurple: true,
       cssClass: "Slide_4",
       left: true,

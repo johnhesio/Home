@@ -14,30 +14,35 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAlt:'Criança sentada estudando no tablet',
                 cardText: "Educação",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/educacao",
             },
             {
                 image: image2,
+                imageAlt:'Homem usando epi conferindo tablet',
                 cardText: "Energia",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/energia",
             },
             {
                 image: image3,
+                imageAlt:'Maquina da industria trabalhando',
                 cardText: "Indústria",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/industria",
             },
             {
                 image: image4,
+                imageAlt:'Mulher morena médica sorrindo',
                 cardText: "Saúde",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/saude",
             },
             {
                 image: image5,
+                imageAlt:'Jovens de mãos dadas segurando uma planta',
                 cardText: "Sustentabilidade",
                 cardIcon: "pi pi-chevron-circle-right",
                 link: "/sustentabilidade",
@@ -63,7 +68,7 @@ export default defineComponent({
         <div class="rounded-2xl hidden md:block relative justify-center w-[200px] mb-5" v-for="link in links">
             <router-link :to="link.link">
                 <div class="rounded-2xl md:absolute top-8 ">
-                    <img :src="link.image" alt="Cards"
+                    <img :src="link.image" :alt="link.imageAlt"
                         class="w-full rounded-xl md:hover:scale-105 transition delay-150 duration-300 ease-in-out brightness-[.9]" />
                     <div class="w-full rounded-b-xl absolute bottom-0 flex ">
                         <p class="text-white font-bold pl-2">{{ link.cardText }}</p>
@@ -82,7 +87,7 @@ export default defineComponent({
                                 class="relative rounded-md md:mx-2 md:my-7 p-3 md:hover:scale-105 transition delay-150 duration-300 ease-in-out md:h-[560px] h-[340px]">
                                 <div class="mb-3 ">
                                     <div class="rounded-2xl md:absolute top-8">
-                                        <img :src="slotProps.data.image" :alt="slotProps.data.alt"
+                                        <img :src="slotProps.data.image" :alt="slotProps.data.imageAlt"
                                             class="w-full rounded-md md:hover:scale-105 transition delay-150 duration-300 ease-in-out brightness-[.8]" />
                                         <div class="w-full absolute bottom-0 flex">
                                             <p class="text-white font-bold pl-2 text-2xl">{{ slotProps.data.cardText }}

@@ -7,7 +7,7 @@ export default defineComponent({
   setup() {
     let open = ref(false)
     let links = [
-      { name: "Inicío", link: "/home" },
+      { name: "Início", link: "/home" },
       { name: "Nós", link: "/sobre" },
       { name: "Cases", link: "/cases" },
       { name: "Atuação", link: "/pdi" },

@@ -17,7 +17,7 @@ export default defineComponent({
             {
                 image: image2,
                 cardTitle: "R$ 600 Milhões",
-                cardText: "De recursos investidos em inovação ",
+                cardText: "de recursos investidos em inovação ",
             },
             {
                 image: image3,
@@ -39,7 +39,7 @@ export default defineComponent({
 </script>
 
 <template>
-    <h1 class="text-2xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4">Nosso Números</h1>
+    <h1 class="text-xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4">Principais Indicadores</h1>
     <div class="flex flex-row flex-wrap">
         <div class="w-1/2 sm:w-1/4 md:w-1/4 mb-4 px-2 " v-for="link in links">
             <div class="flex flex-col justify-center items-center md:pt-5">

@@ -13,7 +13,7 @@ export default defineComponent({ name: "homero", })
                 <h1 class="font-bold md:text-8xl text-[22px] text-[#8b47fe] md:pb-10 md:w-[70%] w-[50%] pb-2">Homero
                     Plataforma
                     de EAD Adaptativa</h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A plataforma Homero emerge como um case
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A plataforma Homero emerge como um <i>case</i>
                     notável no cenário de Educação a Distância (EAD), destacando-se por sua abordagem inovadora e
                     eficaz. Ao integrar Aprendizagem Adaptativa, Mineração de Conteúdo, Diálogo e Visão Computacional, o
                     Homero oferece uma experiência educacional única e personalizada.</p>

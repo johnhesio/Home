@@ -28,7 +28,7 @@ export default defineComponent({
                     beneficiárias da Lei de
                     Informática, através de uma equipe composta por profissionais qualificados e pesquisadores com
                     vínculo
-                    em universidades: sejam professores que sirvam como mentores e orientadores, alunos de pós-graduação
+                    em universidades, sejam professores que sirvam como mentores e orientadores, alunos de pós-graduação
                     que
                     contribuam com suas pesquisas ou alunos de graduação que busquem ampliar seu conhecimento e sua
                     experiência com a participação em projetos de P&D.​</p>

@@ -16,15 +16,15 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
-                imageText: "Comunicação e Relacionamento Interpessoal",
+                imageText: "Comunicação e relacionamento interpessoal",
             },
             {
                 image: image2,
-                imageText: "Inglês para Profissional de TIC",
+                imageText: "Inglês para profissional de TIC",
             },
             {
                 image: image3,
-                imageText: "Quality Assurance",
+                imageText: "Quality assurance",
             },
             {
                 image: image4,
@@ -40,7 +40,7 @@ export default defineComponent({
             },
             {
                 image: image7,
-                imageText: "Inteligência Artificial",
+                imageText: "Inteligência artificial",
             },
             {
                 image: image8,

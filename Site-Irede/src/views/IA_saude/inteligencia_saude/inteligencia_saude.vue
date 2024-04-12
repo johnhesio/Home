@@ -17,7 +17,7 @@ export default defineComponent({ name: "inteligencia_saude", })
             <div class="md:w-1/2 md:py-5 md:text-left text-center md:ml-36 px-4">
                 <div class="md:pb-8 pb-4">
                     <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Inteligência Artificial na Saúde</h2>
-                    <p class="md:text-xl ">O VMI MÉDICA incorpora inteligência artificial como uma aliada crucial na
+                    <p class="md:text-xl ">A IA aplicada à saúde incorpora inteligência artificial como uma aliada crucial na
                         análise de mamografias. Utilizando algoritmos avançados de aprendizado de máquina, a IA é
                         treinada para identificar padrões, anomalias e características sutis que podem passar
                         despercebidas em avaliações tradicionais. Essa aplicação estratégica da IA não apenas acelera o
@@ -25,7 +25,7 @@ export default defineComponent({ name: "inteligencia_saude", })
                 </div>
                 <div class="">
                     <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Predição de Diagnósticos</h2>
-                    <p class="md:text-xl ">O ponto central do sucesso do VMI MÉDICA reside na capacidade da IA em prever
+                    <p class="md:text-xl ">O ponto central do sucesso da IA aplicada à saúde reside na capacidade da IA em prever
                         diagnósticos a partir das imagens de mamografias. Ao analisar milhares de casos e aprendendo com
                         dados, a IA desenvolve uma capacidade preditiva, antecipando potenciais áreas de preocupação e
                         indicando a necessidade de uma investigação mais aprofundada. Essa abordagem pró-ativa

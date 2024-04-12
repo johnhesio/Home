@@ -6,7 +6,7 @@ export default defineComponent({ name: "cati" })
 
 <template>
     <div>
-        <img src="../../../assets/Imagens/agente_softex.png" alt="Agente Softex e CATI" class="w-full">
+        <img src="../../../assets/Imagens/agente_softex.jpg" alt="Agente Softex e CATI" class="w-full">
     </div>
 </template>
 

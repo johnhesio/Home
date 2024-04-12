@@ -27,7 +27,7 @@ export default defineComponent({ name: "homero", })
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Mineração de Conteúdo</h1>
                 <p class="md:py-2">A Mineração de Conteúdo na plataforma Homero vai além da simples entrega de
                     informações. Utilizando algoritmos avançados, a plataforma identifica padrões nos dados de
-                    aprendizado, oferecendo insights valiosos para educadores e sugerindo ajustes no material didático.
+                    aprendizado, oferecendo <i>insights</i> valiosos para educadores e sugerindo ajustes no material didático.
                     Isso resulta em uma constante melhoria na qualidade do ensino e na personalização contínua da
                     experiência de aprendizagem.</p>
 
@@ -37,7 +37,7 @@ export default defineComponent({ name: "homero", })
                     alt="Plataforma EAD Adaptativa Imagem 03" class="rounded-2xl">
                 <h1 class="md:text-2xl text-[#8b47fe] pt-3">Diálogo Personalizado</h1>
                 <p class="md:py-2">A interação aluno plataforma é enriquecida por meio do Diálogo Personalizado, onde o
-                    Homero se torna um guia adaptativo para o estudante. Esse diálogo vai além de respostas programadas,
+                    Homero se torna um guia adaptativo para o estudante. Este diálogo vai além de respostas programadas,
                     utilizando lógica avançada para compreender as perguntas dos alunos, oferecendo explicações claras e
                     promovendo um ambiente de aprendizagem colaborativo e dinâmico.</p>
 

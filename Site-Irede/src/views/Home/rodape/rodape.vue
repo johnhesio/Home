@@ -7,7 +7,7 @@ export default defineComponent({
 
     let links = [
       {
-        buttonName: "Inicío",
+        buttonName: "Início",
         link: "/home",
       },
       {
@@ -20,7 +20,7 @@ export default defineComponent({
       },
       {
         buttonName: "Atuação",
-        link: "#",
+        link: "/pdi",
       },
       {
         buttonName: "Contato",

@@ -15,13 +15,13 @@ export default defineComponent({ name: "saude" })
                     class="text-[#8B47FE] md:text-4xl font-medium md:text-left text-2xl text-center py-3 md:pl-5 md:pb-5">
                     Projeto</h2>
                 <ul class="list-disc list-inside">
-                    <li>Comparação de Imagens de mamografia, aumentando precisão de diagnóstico precoce;
+                    <li>Aperfeiçoamento da precisão do diagnóstico precoce através da comparação de imagens de mamografia;
                     </li>
                     <li>Inteligência artificial na realização de avaliação corporal realizada por foto;​
                     </li>
                     <li>Realidade aumentada em simulações biomédicas; ​
                     </li>
-                    <li>Treinamentos Médicos em ambiente imersivo;
+                    <li>Desenvolvimento de treinamentos médicos em ambiente imersivos, permitindo uma prática mais realista e eficaz;
                     </li>
                     
                 </ul>

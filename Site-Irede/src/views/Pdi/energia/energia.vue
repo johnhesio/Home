@@ -28,7 +28,7 @@ export default defineComponent({
             },
             {
                 image: image5,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageText: "Sistema de monitoramento de uso do EPI",
             },
 
         ]

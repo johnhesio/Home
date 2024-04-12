@@ -18,7 +18,7 @@ export default defineComponent({ name: "residencia_seletiva", })
                 <div class="md:pb-8 pb-4">
                     <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Residência Seletiva e Focada</h2>
                     <p class="md:text-xl ">A Residência, limitada a 20 alunos, simboliza a concentração na qualidade
-                        sobre a quantidade. Essa seletividade permitiu uma atenção mais personalizada, proporcionando um
+                        sobre a quantidade. Esta seletividade permitiu uma atenção mais personalizada, proporcionando um
                         ambiente propício para o desenvolvimento avançado de habilidades em desenvolvimento de software.
                         Os participantes tiveram a oportunidade de aprofundar seus conhecimentos, enfrentar desafios
                         complexos e colaborar em projetos inovadores.</p>
@@ -49,7 +49,7 @@ export default defineComponent({ name: "residencia_seletiva", })
                     <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Inovação na Capacitação Profissional
                     </h2>
                     <p class="md:text-xl ">O RESTIC 10 destaca-se por sua abordagem inovadora na capacitação
-                        profissional. Ao integrar capacitação abrangente e uma residência especializada, o programa se
+                        profissional. Ao integrar capacitação abrangente e uma residência especializada, o Programa se
                         tornou um modelo eficaz para moldar profissionais prontos para os desafios dinâmicos do setor de
                         TIC.</p>
                 </div>

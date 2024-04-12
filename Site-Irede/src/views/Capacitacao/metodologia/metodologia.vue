@@ -30,19 +30,19 @@ export default defineComponent({
             },
             {
                 image: image5,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageText: "Resolução de problemas",
             },
             {
                 image: image6,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageText: "Comunicação eficaz",
             },
             {
                 image: image7,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageText: "Aprendizado contínuo",
             },
             {
                 image: image8,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageText: "Conhecimento específico",
             },
 
         ]

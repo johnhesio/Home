@@ -82,7 +82,7 @@ export default defineComponent({
                     <h1 class="pl-3 pb-2 text-[#8b47fe] text-2xl font-bold">{{ slotProps.data.cardTittle }}</h1>
                     <p class="pl-3 pb-2 w-[95%]">{{ slotProps.data.cardText }}</p>
                 </div>
-            </template>
+            </template> 
         </Carousel>
     </div>
 

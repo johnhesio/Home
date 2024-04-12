@@ -10,11 +10,9 @@ export default defineComponent({ name: "desenvolvimento" })
             class="w-full">
         <div class="absolute md:top-24 md:w-[50%] md:pl-32 top-12 pl-8 w-[50%]">
             <h1 class="md:text-7xl font-bold text-[#8B47FE] text-2xl">Pesquisa, Desenvolvimento & Inovação</h1>
-            <p class="md:text-xl md:pt-10 hidden md:block">Desenvolvemos projetos de pesquisa, desenvolvimento e inovação para empresas que
-                buscam se
-                impulsionar
-                tecnologicamente, seja para se diferenciar, sustentabilidade, crescimento econômico ou simplesmente para
-                resolver problemas complexos.</p>
+            <p class="md:text-xl md:pt-10 hidden md:block">Desenvolvemos projetos de pesquisa, desenvolvimento e
+                inovação para empresas que desejam avançar tecnologicamente, seja visando diferenciação,
+                sustentabilidade, crescimento econômico ou resolução de desafios complexos.</p>
         </div>
     </div>
 </template>

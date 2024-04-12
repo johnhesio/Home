@@ -17,7 +17,7 @@ export default defineComponent({ name: "restic_10" })
                 <div class="w-[45%] md:w-3/5 md:py-5 text-xl pl-3">
                     <p class="py-3">Iniciado em 2022, com 20 meses de duração;
                     </p>
-                    <p class="py-3">Desenvolvimento de funcionalidades de Aprendizagem;
+                    <p class="py-3">Desenvolvimento de funcionalidades de aprendizagem;
                     </p>
                     <p class="py-3">Adaptativa para uma Plataforma de EAD;​
                     </p>
@@ -40,7 +40,6 @@ export default defineComponent({ name: "restic_10" })
                         </p>
                         <p class="text-black px-6 border-l-4 border-[#43EAE8] my-5"> Visão Computacional
                         </p>
-
                     </div>
                 </div>
             </div>

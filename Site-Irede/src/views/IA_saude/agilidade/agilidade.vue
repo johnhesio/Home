@@ -17,14 +17,14 @@ export default defineComponent({ name: "agilidade", })
             <div class="md:pb-8 pb-4">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe] md:w-[60%] md:px-0 px-4">Agilidade e Eficiência no Processo de
                     Diagnóstico</h2>
-                <p class="md:text-xl md:w-[80%] px-4 md:px-0">A implementação da inteligência artificial no VMI MÉDICA não apenas
+                <p class="md:text-xl md:w-[80%] px-4 md:px-0">A implementação da inteligência artificial da IA aplicada à saúde não apenas
                     aprimora a precisão, mas também promove a agilidade no processo de diagnóstico, permitindo que os
                     profissionais de saúde concentrem-se em análises mais complexas e na tomada de decisões clínicas
                     fundamentadas.</p>
             </div>
             <div class="md:pb-8 pb-4">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe] md:w-[60%] px-4 md:px-0">Compromisso com a Inovação Contínua</h2>
-                <p class="md:text-xl md:w-[80%] px-4 md:px-0">O sucesso contínuo do VMI MÉDICA é sustentado pelo compromisso com a
+                <p class="md:text-xl md:w-[80%] px-4 md:px-0">O sucesso contínuo da IA aplicada à saúde é sustentado pelo compromisso com a
                     inovação. A plataforma está em constante evolução, incorporando avanços na inteligência artificial,
                     atualizações de dados e feedback dos profissionais de saúde para garantir que permaneça na vanguarda
                     da tecnologia e da prática clínica.</p>
@@ -32,9 +32,9 @@ export default defineComponent({ name: "agilidade", })
             <div class="md:pb-8 pb-4">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe] md:w-[60%] px-4 md:px-0">Transformação na Abordagem Diagnóstica
                 </h2>
-                <p class="md:text-xl md:w-[80%] px-4 md:px-0">O VMI MÉDICA não apenas representa uma evolução na tecnologia de
+                <p class="md:text-xl md:w-[80%] px-4 md:px-0">A IA aplicada à saúde não apenas representa uma evolução na tecnologia de
                     diagnóstico, mas também redefine a abordagem tradicional de como enfrentamos desafios médicos
-                    complexos. Este case de sucesso demonstra que a inteligência artificial aplicada à saúde não é
+                    complexos. Este <i>case</i> de sucesso demonstra que a inteligência artificial aplicada à saúde não é
                     apenas uma ferramenta, mas uma aliada poderosa na busca por diagnósticos mais rápidos, precisos e
                     impactantes.</p>
             </div>

@@ -77,9 +77,6 @@ export default defineComponent({ name: "academy" })
                             Developer Academy </span> em parceria com o <span class="font-bold">IFCE</span> oferece
                         desde 2014 um programa de educação, inovação e desenvolvimento
                     </p>
-
-
-
                 </div>
             </div>
         </div>

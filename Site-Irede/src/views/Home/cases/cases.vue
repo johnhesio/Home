@@ -25,25 +25,25 @@ export default defineComponent({
         const carouselSlides = [
             {
                 image: image1,
-                imageAlt: "Residência em Desen. de Aplicativos",
-                imageTitle: "Residência em Desen. de Aplicativos",
-                imageText: "Apps que Elevam Experiências e conectam Ideias Atividade",
+                imageAlt: "Pessoas planejando projeto sob a mesa",
+                imageTitle: "Residência em desenvolvimento de aplicativos",
+                imageText: "Apps que elevam experiências e conectam ideias a atividade.",
                 buttonLink: "/residencia",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
             {
                 image: image2,
-                imageAlt: "Plataforma EAD Adaptativa",
-                imageTitle: "Plataforma EAD Adaptativa",
-                imageText: "Rumo ao Conhecimento Personalizado: Homero, EAD Adaptativo. Transformando Aprendizado, Moldando Futuros de Forma Única e Personalizada",
+                imageAlt: "plataforma homero na tela do computador",
+                imageTitle: "Plataforma EAD adaptativa",
+                imageText: "Rumo ao conhecimento personalizado: Homero, EAD adaptativo, transformando aprendizado, moldando futuros de forma única e personalizada.",
                 buttonLink: "/plataformaead",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
             {
                 image: image3,
-                imageAlt: "IA Aplicada a Saúde",
-                imageTitle: "IA Aplicada a Saúde",
-                imageText: "Conectando Inovação ao Cuidado: Com a IA, Elevamos a Saúde para Novos Patamares.",
+                imageAlt: "pessoas conversando sobre tecnologia",
+                imageTitle: "IA aplicada à saúde",
+                imageText: "Conectando inovação à saúde: com a IA, elevamos a saúde para novos patamares.",
                 buttonLink: "/ia_saude",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
@@ -51,9 +51,9 @@ export default defineComponent({
             
             {
                 image: image5,
-                imageAlt: "DevOps Básico e Quality Assurance",
-                imageTitle: "DevOps Básico e Quality Assurance",
-                imageText: "Construindo Pontes entre Desenvolvimento e Qualidade. Unindo Eficiência e Excelência em Cada Etapa do Caminho.",
+                imageAlt: "pessoa conversando sobre projetos",
+                imageTitle: "DevOps básico e quality assurance",
+                imageText: "Construindo pontes entre desenvolvimento e qualidade. Unindo eficiência e excelência em cada etapa do caminho.",
                 buttonLink: "/devops",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
@@ -62,18 +62,18 @@ export default defineComponent({
             
             {
                 image: image13,
-                imageAlt: "Desenvolvimento de Software",
-                imageTitle: "Desenvolvimento de Software",
-                imageText: "Buscando o atendimento da demanda de mercado carente em profissionais de TIC.",
+                imageAlt: "pessoa encinando sobre programação",
+                imageTitle: "Desenvolvimento de software",
+                imageText: "Buscando o atendimento da demanda de mercado, carente em profissionais de TIC.",
                 buttonLink: "/dev_software",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
            
             {
                 image: image15,
-                imageAlt: "Educação Imersiva",
-                imageTitle: "Educação Imersiva",
-                imageText: "Conectando Mentes, Transformando Futuros: Uma Educação Imersiva, com Gamificação e Interação EAD. Aprendizado que Inspira, Conecta e Transforma",
+                imageAlt: "plataforma de educação imersiva",
+                imageTitle: "Educação imersiva",
+                imageText: "Conectando mentes, transformando futuros: uma educação imersiva, com gamificação e interação EAD. Aprendizado que inspira, conecta e transforma.",
                 buttonLink: "/edu_imersiva",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
@@ -112,7 +112,7 @@ export default defineComponent({
 
 <template>
 
-    <h1 class="text-2xl font-bold text-center pt-7 pb-5 md:text-4xl md:pb-8 md:pt-9">Cases de sucesso e soluções</h1>
+    <h1 class="text-xl font-bold text-center pt-7 pb-5 md:text-4xl md:pb-8 md:pt-9">Cases de Sucesso e Soluções</h1>
     <Carousel :value="carouselSlides" :numVisible="3" :numScroll="3" :responsiveOptions="responsiveOptions"
         :autoplayInterval="4000" class="relative">
         <template #item="slotProps">
@@ -122,7 +122,7 @@ export default defineComponent({
                         class="relative bg-white border border-surface-200 dark:border-surface-700 rounded-md md:mx-2 md:my-7 p-3 md:hover:scale-105 transition delay-150 duration-300 ease-in-out md:h-[560px] h-[340px]">
                         <div class="mb-3">
                             <div class="relative mx-auto ">
-                                <img :src="slotProps.data.image" :alt="slotProps.data.alt" class="w-full rounded-md" />
+                                <img :src="slotProps.data.image" :alt="slotProps.data.imageAlt" class="w-full rounded-md" />
                             </div>
                         </div>
                         <div class="flex flex-col  ">

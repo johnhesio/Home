@@ -9,9 +9,9 @@ export default defineComponent({ name: "saude_card", })
     <div>
         <div class="relative flex flex-col">
             <div class="absolute md:w-[60%] md:top-24 md:left-20 left-5 top-5">
-                <h1 class="font-bold md:text-6xl text-[25px] text-[#8b47fe] md:pb-10 w-[80%] pb-2">IA Aplicada a Saúde
+                <h1 class="font-bold md:text-6xl text-[25px] text-[#8b47fe] md:pb-10 w-[80%] pb-2">IA Aplicada à Saúde
                 </h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">O VMI MÉDICA se destaca como um case exemplar,
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A IA aplicada à saúde se destaca como um <i>case</i> exemplar,
                     empregando inteligência artificial (IA) para transformar a abordagem tradicional de diagnósticos de
                     mamografias. Este projeto inovador não apenas agiliza o processo de análise, mas também eleva a
                     precisão na identificação precoce de possíveis diagnósticos, marcando um avanço significativo na

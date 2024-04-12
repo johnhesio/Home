@@ -23,10 +23,10 @@ export default defineComponent({ name: "restic_capa", })
             </div>
             <div class="">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Evolução para a Residência</h2>
-                <p class="md:text-xl px-4 md:px-0 md:w-[70%]">O sucesso da capacitação pavimentou o caminho para uma fase mais avançada - uma
+                <p class="md:text-xl px-4 md:px-0 md:w-[70%]">O sucesso da capacitação pavimentou o caminho para uma fase mais avançada: uma
                     Residência em Desenvolvimento de Software. Com uma abordagem prática, a Residência mergulhou
                     profundamente no desenvolvimento de software, permitindo que os participantes aplicassem seus
-                    conhecimentos em projetos do mundo real. Essa evolução natural demonstrou uma resposta eficiente às
+                    conhecimentos em projetos do mundo real. Esta evolução natural demonstrou uma resposta eficiente às
                     necessidades crescentes do setor de TIC.</p>
             </div>
         </div>

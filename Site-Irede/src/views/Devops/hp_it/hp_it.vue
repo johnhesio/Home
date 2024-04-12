@@ -13,7 +13,7 @@ export default defineComponent({ name: "hp_it", })
                 <h1 class="font-bold md:text-8xl text-[22px] text-[#8b47fe] md:w-full w-[70%] md:pb-10 pb-2">DevOps Básico
                     e Quality Assurance</h1>
                 <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A parceria entre a Universidade Estadual do
-                    Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um case inspirador de sucesso: o
+                    Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um <i>case</i> inspirador de sucesso: o
                     Programa IT Talent. Este projeto inovador abre portas para o futuro ao disponibilizar 80 vagas em um
                     curso na área de Tecnologia da Informação, com uma duração de cinco meses.</p>
                 <a href="https://api.whatsapp.com/send?phone=558538795344"
@@ -24,7 +24,7 @@ export default defineComponent({ name: "hp_it", })
         <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico_e_quality_assurance/devops_basico_e_quality_assurance_capa.jpg" alt="Devops"
             class="w-full">
         <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-6 text-center py-2">A parceria entre a Universidade
-            Estadual do Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um case inspirador de sucesso: o
+            Estadual do Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um <i>case</i> inspirador de sucesso: o
             Programa IT Talent. Este projeto inovador abre portas para o futuro ao disponibilizar 80 vagas em um curso
             na área de Tecnologia da Informação, com uma duração de cinco meses.</p>
     </div>

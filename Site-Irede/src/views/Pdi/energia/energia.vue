@@ -12,22 +12,27 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAtl:"",
                 imageText: "Identificação e predição de falhas",
             },
             {
                 image: image2,
+                imageAtl:"",
                 imageText: "Ambiente virtual para capacitação",
             },
             {
                 image: image3,
+                imageAtl:"",
                 imageText: "Medidores inteligentes",
             },
             {
                 image: image4,
+                imageAtl:"",
                 imageText: "Inspeção semiautônoma",
             },
             {
                 image: image5,
+                imageAtl:"",
                 imageText: "Sistema de monitoramento de uso do EPI",
             },
 

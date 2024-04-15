@@ -11,24 +11,29 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAlt:"Ícone para a página de PDI",
                 name: "PD&I",
                 buttonLink: "/pdi",
                 buttonText: "Sabia Mais!",
             },
             {
                 image: image2,
+                imageAlt:"Ícone para a página de Capacitação",
                 name: "Capacitação",
                 buttonLink: "/capacitacao",
                 buttonText: "Sabia Mais!",
             },
             {
                 image: image3,
+                imageAlt:"Ícone para a página de Empreendedorismo",
                 name: "Empreendedorismo",
                 buttonLink: "/empreendedorismo",
                 buttonText: "Sabia Mais!",
+                
             },
             {
                 image: image4,
+                imageAlt:"Ícone para a página de Consultoria",
                 name: "Consultoria",
                 buttonLink: "/consultoria",
                 buttonText: "Sabia Mais!",
@@ -48,7 +53,7 @@ export default defineComponent({
             <div class="w-1/2 sm:w-1/4 md:w-1/4 mb-4 px-2" v-for="Link in links">
                 <div class="relative bg-white rounded border">
                     <picture class=" bg-white flex flex-col justify-center items-center pt-5">
-                        <img class="block h-20 md:h-[150px]" :src="Link.image" alt="Cards">
+                        <img class="block h-20 md:h-[150px]" :src="Link.image" :alt="Link.imageAlt">
                     </picture>
                     <div class="p-4 flex flex-col justify-center items-center">
                         <h1 class="text-sm font-bold text-center md:pb-10 pb-5 md:text-2xl"> {{ Link.name }} </h1>

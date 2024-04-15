@@ -13,7 +13,9 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAlt:"IREDE Fortaleza",
                 imageLogo: image4,
+                imageLogoalt:"Logo IREDE",
                 cardLocal: "FORTALEZA",
                 cardTitle1: "Gestão e Empreendedorismo",
                 cardText1: "Av. Desembargador Moreira, 1300 - Aldeota, Fortaleza-CE, 60170-002",
@@ -23,7 +25,9 @@ export default defineComponent({
             },
             {
                 image: image2,
+                imageAlt:"IREDE Manaus",
                 imageLogo: image5,
+                imageLogoalt:"Logo IREDE Manuas",
                 cardLocal: "MANAUS",
                 cardTitle1: "Gestão e Laboratórios de PD&I",
                 cardText1: "Rua Guglielmo Marconi, 14 - Adrianópolis, Manaus-AM, 69055-010",
@@ -31,7 +35,9 @@ export default defineComponent({
             },
             {
                 image: image3,
+                imageAlt:"Laboratorio de inovação",
                 imageLogo: image6,
+                imageLogoalt:"Logo Laboratório de desenvolvimento de software",
                 cardLocal: "FORTALEZA",
                 cardTitle1: "Laboratórios de PD&I",
                 cardText1: "Rua Felino Barroso, 643 - Fátima, Fortaleza-CE, 60050-130",

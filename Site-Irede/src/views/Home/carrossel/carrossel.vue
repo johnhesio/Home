@@ -11,6 +11,7 @@ export default defineComponent({
   setup() {
     const carouselSlides = [{
       image: image1,
+      imageAlt:"Casal junto olhando para tablet",
       title: "Construindo Parcerias, Ampliando Horizontes. ",
       imageText: "Explore as oportunidades que o IREDE oferece aos nossos valiosos institutos parceiros.  Nossa missão é apoiar e potencializar suas iniciativas educacionais, proporcionando um ambiente dinâmico para crescimento conjunto, inovação e impacto positivo. ",
       isPurple: false,
@@ -22,6 +23,7 @@ export default defineComponent({
     },
     {
       image: image2,
+      imageAlt:"Pessoas juntas olhando para notebook planejando projetos",
       title: "Impulsione a Inovação, Conquiste o Futuro. ",
       imageText: "Explore nossos recursos avançados, projetados para acelerar o ciclo de inovação em sua organização. Da pesquisa à implementação, o IREDE oferece um ambiente colaborativo que amplia fronteiras e transforma ideias em realidade.",
       isPurple: true,
@@ -33,6 +35,7 @@ export default defineComponent({
     },
     {
       image: image3,
+      imageAlt:"Pessoas juntas assistindo aula",
       title: "Descubra nossos projetos de capacitação inovadores.",
       imageText: "Projetados para impulsionar sua carreira e prepará-lo para os desafios do mundo digital. Prepare-se para explorar, aprender e crescer. Seu futuro começa aqui no IREDE.",
       cssClass: "Slide_3",
@@ -43,6 +46,7 @@ export default defineComponent({
     },
     {
       image: image4,
+      imageAlt:"Mulher branca ruiva olhando para celular",
       title: "Você sabe onde está a base para construir inovação?",
       imageText: "Está na criatividade, na educação, na pesquisa e no desenvolvimento. É aí que o IREDE entra em ação. Buscamos promover a inovação e transformar vidas por meio de capacitações, preparando as pessoas para o futuro.",
       isPurple: true,
@@ -65,7 +69,7 @@ export default defineComponent({
     <template #item="slotProps">
 
       <div class="w-full relative" v-if="slotProps.item.left">
-        <img :src="slotProps.item.image" :alt="slotProps.item.image" style="width: 100%; display: block" />
+        <img :src="slotProps.item.image" :alt="slotProps.item.imageAlt" style="width: 100%; display: block" />
         <div class="absolute top-0 left-0 h-screen md:px-20 px-10 py-5">
           <div class="md:w-[60%] md-screen md:flex md:flex-col md:justify-center w-[50%]">
             <h1 v-if="slotProps.item.isPurple"
@@ -86,7 +90,7 @@ export default defineComponent({
       </div>
 
       <div class="md:w-full relative" v-else>
-        <img :src="slotProps.item.image" :alt="slotProps.item.image" style="width: 100%; display: block" />
+        <img :src="slotProps.item.image" :alt="slotProps.item.imageAlt" style="width: 100%; display: block" />
         <div class="absolute flex flex-row justify-end top-0 left-0 h-screen px-20">
           <div class="w-[40%] h-screen mflex flex-col justify-center">
             <h1 v-if="slotProps.item.isPurple"

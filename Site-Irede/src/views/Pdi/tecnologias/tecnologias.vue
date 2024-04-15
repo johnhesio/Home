@@ -10,9 +10,9 @@ export default defineComponent({
 <template>
     <div class="relative pt-5">
         <div class="top-0 md:absolute">
-            <h1
+            <h2
                 class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center md:pt-20 md:pl-20 md:pb-1">
-                Tecnologia</h1>
+                Tecnologia</h2>
             <div class="flex flex-row flex-wrap md:ml-8 justify-center md:justify-start">
                 <div class="flex flex-wrap justify-center md:text-xl">
                     <ul class="w-4/5 md:w-4/5 md:mb-10 list-disc list-inside p-5 my-4 text-2xl">
@@ -35,7 +35,7 @@ export default defineComponent({
                 class="bg-black text-white md:px-8 px-6 md:py-3 py-2 mb-4 md:ml-32 ml-20 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_tecnologias-3.png" alt="Pdi segmento Tecnologia" class="hidden md:block w-full">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_tecnologias-3.png" alt="Mulher morena usando oculos usando tablet" class="hidden md:block w-full">
     </div>
 </template>
 

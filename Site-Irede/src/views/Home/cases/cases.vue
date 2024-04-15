@@ -47,8 +47,8 @@ export default defineComponent({
                 buttonLink: "/ia_saude",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-          
-            
+
+
             {
                 image: image5,
                 imageAlt: "pessoa conversando sobre projetos",
@@ -57,9 +57,9 @@ export default defineComponent({
                 buttonLink: "/devops",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-            
-            
-            
+
+
+
             {
                 image: image13,
                 imageAlt: "pessoa encinando sobre programação",
@@ -68,7 +68,7 @@ export default defineComponent({
                 buttonLink: "/dev_software",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-           
+
             {
                 image: image15,
                 imageAlt: "plataforma de educação imersiva",
@@ -112,7 +112,7 @@ export default defineComponent({
 
 <template>
 
-    <h1 class="text-xl font-bold text-center pt-7 pb-5 md:text-4xl md:pb-8 md:pt-9">Cases de Sucesso e Soluções</h1>
+    <h2 class="text-xl font-bold text-center pt-7 pb-5 md:text-4xl md:pb-8 md:pt-9">Cases de Sucesso e Soluções</h2>
     <Carousel :value="carouselSlides" :numVisible="3" :numScroll="3" :responsiveOptions="responsiveOptions"
         :autoplayInterval="4000" class="relative">
         <template #item="slotProps">
@@ -121,25 +121,29 @@ export default defineComponent({
                     <div
                         class="relative bg-white border border-surface-200 dark:border-surface-700 rounded-md md:mx-2 md:my-7 p-3 md:hover:scale-105 transition delay-150 duration-300 ease-in-out md:h-[560px] h-[340px]">
                         <div class="mb-3">
-                            <div class="relative mx-auto ">
-                                <img :src="slotProps.data.image" :alt="slotProps.data.imageAlt" class="w-full rounded-md" />
+                            <div class="relative mx-auto">
+                                <img :src="slotProps.data.image" :alt="slotProps.data.imageAlt"
+                                    class="w-full rounded-md" />
                             </div>
                         </div>
                         <div class="flex flex-col  ">
-                            <div class="md:mb-3 md:text-2xl font-bold text-[14px] relative mx-auto text-purple-700">{{
-        slotProps.data.imageTitle }}
+                            <div class="md:mb-3 md:text-2xl font-bold text-[14px] relative mx-auto text-[#8b47fe]">
+                                <p>
+                                    {{ slotProps.data.imageTitle }}
+                                </p>
                             </div>
                             <div class="flex flex-col justify-between items-center relative mx-auto">
-                                <div class="mt-0 font-regular text-[12px] md:text-[20px]">{{ slotProps.data.imageText }}
+                                <div class="mt-0 font-regular text-[12px] md:text-[20px] text-black">
+                                    <p>
+                                        {{ slotProps.data.imageText }}
+                                    </p>
                                 </div>
-
                             </div>
                         </div>
-                        <i :class="slotProps.data.buttonIcon" style="font-size: 2rem; color: rgb(126, 34, 206);"
-                            class="absolute bottom-0 right-0 py-2 px-2"></i>
+                        <i :class="slotProps.data.buttonIcon" style="font-size: 2rem; color: rgb(139, 71, 254);"
+                            class="absolute bottom-0 right-0 py-2 px-2" alt="Seta para indicar o link da página"></i>
                     </div>
                 </router-link>
-
             </div>
         </template>
     </Carousel>

@@ -11,7 +11,7 @@ export default defineComponent({
   setup() {
     const carouselSlides = [{
       image: image1,
-      imageAlt:"Casal junto olhando para tablet",
+      imageAlt: "Casal junto olhando para tablet",
       title: "Construindo Parcerias, Ampliando Horizontes. ",
       imageText: "Explore as oportunidades que o IREDE oferece aos nossos valiosos institutos parceiros.  Nossa missão é apoiar e potencializar suas iniciativas educacionais, proporcionando um ambiente dinâmico para crescimento conjunto, inovação e impacto positivo. ",
       isPurple: false,
@@ -23,7 +23,7 @@ export default defineComponent({
     },
     {
       image: image2,
-      imageAlt:"Pessoas juntas olhando para notebook planejando projetos",
+      imageAlt: "Pessoas juntas olhando para notebook planejando projetos",
       title: "Impulsione a Inovação, Conquiste o Futuro. ",
       imageText: "Explore nossos recursos avançados, projetados para acelerar o ciclo de inovação em sua organização. Da pesquisa à implementação, o IREDE oferece um ambiente colaborativo que amplia fronteiras e transforma ideias em realidade.",
       isPurple: true,
@@ -35,7 +35,7 @@ export default defineComponent({
     },
     {
       image: image3,
-      imageAlt:"Pessoas juntas assistindo aula",
+      imageAlt: "Pessoas juntas assistindo aula",
       title: "Descubra nossos projetos de capacitação inovadores.",
       imageText: "Projetados para impulsionar sua carreira e prepará-lo para os desafios do mundo digital. Prepare-se para explorar, aprender e crescer. Seu futuro começa aqui no IREDE.",
       cssClass: "Slide_3",
@@ -46,7 +46,7 @@ export default defineComponent({
     },
     {
       image: image4,
-      imageAlt:"Mulher branca ruiva olhando para celular",
+      imageAlt: "Mulher branca ruiva olhando para celular",
       title: "Você sabe onde está a base para construir inovação?",
       imageText: "Está na criatividade, na educação, na pesquisa e no desenvolvimento. É aí que o IREDE entra em ação. Buscamos promover a inovação e transformar vidas por meio de capacitações, preparando as pessoas para o futuro.",
       isPurple: true,
@@ -78,11 +78,11 @@ export default defineComponent({
             <h1 v-else class="text-[#8b47fe] md:text-6xl md:font-bold md:italic md:pt-20 text-[16px] font-bold italic">
               {{
                 slotProps.item.title }}</h1>
-            <p v-if="slotProps.item.isWhite" class="md:w-[50%] md:py-5 md:text-xl w-[50%] text-[12px] hidden md:block">
+            <p v-if="slotProps.item.isWhite" class="text-black md:w-[50%] md:py-5 md:text-xl w-[50%] text-[12px] hidden md:block">
               {{ slotProps.item.imageText }}</p>
             <p v-else class="md:text-[#fff] md:w-[50%] md:py-5 md:text-xl hidden md:block">{{ slotProps.item.imageText
               }}</p>
-            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white md:text-2xl rounded-full md:w-[30%] text-center md:py-2 hover:bg-purple-700 bg-black text-white text-[10px]
+            <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white md:text-2xl rounded-full md:w-[30%] text-center md:py-2 hover:bg-[#8b47fe] bg-black text-white text-[10px]
                px-2 py-1 mt-6">
               {{ slotProps.item.buttonText }} </a>
           </div>
@@ -103,7 +103,7 @@ export default defineComponent({
             </h1>
             <p class="md:py-5 md:text-xl hidden md:block">{{ slotProps.item.imageText }}</p>
             <a :href="slotProps.item.buttonLink" class="md:bg-black md:text-white rounded-full md:text-2xl md:w-[30%]
-              text-center md:py-2 md:px-12 hover:bg-purple-700 bg-black text-white text-[10px] px-2 py-1 mt-20 ml-2">
+              text-center md:py-2 md:px-12 hover:bg-[#8b47fe] bg-black text-white text-[10px] px-2 py-1 mt-20 ml-2">
               {{ slotProps.item.buttonText }} </a>
           </div>
         </div>

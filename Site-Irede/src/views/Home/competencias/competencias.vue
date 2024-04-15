@@ -61,10 +61,10 @@ export default defineComponent({
 
 <template>
 
-    <h1 class="text-white text-xl font-bold text-center pt-7 md:text-4xl md:pt-9 bg-purple-700">Competências por
-        Segmento </h1>
+    <h2 class="text-white text-xl font-bold text-center pt-7 md:text-4xl md:pt-9 bg-[#8b47fe]">Competências por
+        Segmento </h2>
     <div
-        class="flex flex-col md:gap-10 md:flex-row justify-center items-center md:items-start bg-purple-700 md:w-full md:h-[200px] md:relative md:mb-32 h-[400px]">
+        class="flex flex-col md:gap-10 md:flex-row justify-center items-center md:items-start bg-[#8b47fe] md:w-full md:h-[200px] md:relative md:mb-32 h-[400px]">
         <div class="rounded-2xl hidden md:block relative justify-center w-[200px] mb-5" v-for="link in links">
             <router-link :to="link.link">
                 <div class="rounded-2xl md:absolute top-8 ">

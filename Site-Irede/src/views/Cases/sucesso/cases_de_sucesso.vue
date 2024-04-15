@@ -21,7 +21,7 @@ export default defineComponent({
     name: "cases",
     setup() {
         const links = [
-        {
+            {
                 image: image1,
                 imageAlt: "Pessoas planejando projeto sob a mesa",
                 imageTitle: "Residência em desenvolvimento de aplicativos",
@@ -45,8 +45,8 @@ export default defineComponent({
                 buttonLink: "/ia_saude",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-          
-            
+
+
             {
                 image: image5,
                 imageAlt: "pessoa conversando sobre projetos",
@@ -55,9 +55,9 @@ export default defineComponent({
                 buttonLink: "/devops",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-            
-            
-            
+
+
+
             {
                 image: image13,
                 imageAlt: "pessoa encinando sobre programação",
@@ -66,7 +66,7 @@ export default defineComponent({
                 buttonLink: "/dev_software",
                 buttonIcon: "pi pi-chevron-circle-right",
             },
-           
+
             {
                 image: image15,
                 imageAlt: "plataforma de educação imersiva",
@@ -92,20 +92,21 @@ export default defineComponent({
                 <div class="relative">
                     <div
                         class="flex flex-col bg-[#F8F8F8] shadow-md md:mx-2 md:my-7 rounded-2xl md:hover:scale-105 transition delay-150 duration-300 ease-in-out md:h-[560px] h-[360px] ">
-                        <img :src="link.image" :alt="link.alt" class=" rounded-t-2xl" />
-                        <div class="md:mb-3 md:text-2xl font-bold text-[13px] text-center p-3 text-[#8B47FE] ">{{
-            link.imageTitle }}
+                        <img :src="link.image" :alt="link.imageAlt" class=" rounded-t-2xl" />
+                        <div class="md:mb-3 md:text-2xl font-bold text-[13px] text-center p-3 text-[#8B47FE] ">
+                            <p>
+                                {{ link.imageTitle }}
+                            </p>
                         </div>
                         <div class="flex flex-col justify-between items-center relative mx-auto">
-                            <div class="mt-0 font-regular text-[11px] md:text-[20px] p-3 text-center">{{ link.imageText
-                                }}
+                            <div class="mt-0 font-regular text-[11px] md:text-[20px] p-3 text-center text-black">
+                                <p>
+                                    {{ link.imageText }}
+                                </p>
                             </div>
-
                         </div>
-
-                        <i :class="link.buttonIcon" style="font-size: 2rem; color: rgb(126, 34, 206);"
-                            class="absolute bottom-0 right-0 py-2 px-4"></i>
-
+                        <i :class="link.buttonIcon" style="font-size: 2rem; color: rgb(139, 71, 254);"
+                            class="absolute bottom-0 right-0 py-2 px-4" alt="Seta para indicar o link da página"></i>
                     </div>
                 </div>
             </router-link>

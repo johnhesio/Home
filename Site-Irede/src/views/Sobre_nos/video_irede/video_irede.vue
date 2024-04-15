@@ -11,8 +11,7 @@ export default defineComponent({
     <div class="bg-[#8b47fe] w-full">
         <div class="flex justify-center">
             <video class="md:w-[1000px] w-[400px] py-10" controls>
-                <source src="../../../assets/Imagens/VIDEO IREDE SITE.mp4" type="video/mp4">
-                Your browser does not support the video tag.
+                <source src="../../../assets/Imagens/VIDEO IREDE SITE.mp4" type="video/mp4" alt="Video sobre IREDE">
             </video>
         </div>
     </div>

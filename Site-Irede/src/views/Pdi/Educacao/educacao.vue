@@ -47,7 +47,7 @@ export default defineComponent({
 <template>
     <div class="bg-[#8B47FE] flex flex-row w-full">
         <div class="h-[550px]">
-            <h1 class="text-white md:text-7xl font-bold md:pl-28 md:py-12 md:text-left text-4xl text-center pt-5">Educação</h1>
+            <h2 class="text-white md:text-7xl font-bold md:pl-28 md:py-12 md:text-left text-4xl text-center pt-5">Educação</h2>
             <div class="flex items-center md:py-3 md:pl-28 pl-5 py-1" v-for="link in links">
                 <img :src="link.image" :alt="link.imageAlt" class="md:w-[100px] w-[80px]">
                 <p class="text-white font-medium md:text-2xl md:pl-2 text-xl">{{ link.imageText }}</p>

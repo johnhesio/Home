@@ -6,8 +6,8 @@ export default defineComponent({ name: "projeto_energia" })
 
 <template>
     <div class="">
-        <h1 class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
-            Projeto</h1>
+        <h3 class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
+            Projeto</h3>
         <div class="flex flex-wrap justify-center md:text-xl">
             <ul
                 class="w-4/5 md:w-2/5 md:h-[320px] md:mb-10 list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4 ">

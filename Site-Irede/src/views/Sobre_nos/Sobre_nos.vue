@@ -7,7 +7,7 @@ const video_irede = defineAsyncComponent(() => import("../../views/Sobre_nos/vid
 const missao = defineAsyncComponent(() => import("../../views/Sobre_nos/missao/missao.vue"));
 const rodape = defineAsyncComponent(() => import("../../views/Home/rodape/rodape.vue"));
 
-export default defineComponent({ name: "Pdi", components: { topbar, nos, video_irede, missao, rodape } })
+export default defineComponent({ name: "Sobre_nos", components: { topbar, nos, video_irede, missao, rodape } })
 </script>
 
 <template>

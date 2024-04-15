@@ -12,27 +12,27 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
-                imageAtl:"",
+                imageAlt:"Ícone de segurança e predição de falhas",
                 imageText: "Identificação e predição de falhas",
             },
             {
                 image: image2,
-                imageAtl:"",
+                imageAlt:"Ícone de ambientes virtuais",
                 imageText: "Ambiente virtual para capacitação",
             },
             {
                 image: image3,
-                imageAtl:"",
+                imageAlt:"Ícone de medidores inteligentes",
                 imageText: "Medidores inteligentes",
             },
             {
                 image: image4,
-                imageAtl:"",
+                imageAlt:"Ícone inspeção semiautônoma",
                 imageText: "Inspeção semiautônoma",
             },
             {
                 image: image5,
-                imageAtl:"",
+                imageAlt:"Ícone de sistema de uso de EPI",
                 imageText: "Sistema de monitoramento de uso do EPI",
             },
 
@@ -47,12 +47,12 @@ export default defineComponent({
 <template>
     <div class="relative w-full flex flex-col gap-4">
         <div class="top-0 md:absolute md:left-[600px]">
-            <h1 class="text-[#8B47FE] md:text-7xl font-bold md:py-12 pt-10 md:text-left text-4xl text-center md:pt-[100px] md:pl-10">
-                Energia</h1>
+            <h2 class="text-[#8B47FE] md:text-7xl font-bold md:py-12 pt-10 md:text-left text-4xl text-center md:pt-[100px] md:pl-10">
+                Energia</h2>
             <div class="flex flex-row flex-wrap gap-4 justify-center mb-8">
                 <div class="w-1/3 md:w-1/6 md:h-[200px] md:mb-10" v-for="link in links">
                     <div class="flex justify-center">
-                        <img :src="link.image" alt="" class="w-[120px]">
+                        <img :src="link.image" :alt="link.imageAlt" class="w-[120px]">
                     </div>
                     <div class="flex flex-col justify-center items-center">
                         <p class="text-center">{{ link.imageText }}</p>
@@ -63,7 +63,7 @@ export default defineComponent({
                 class="bg-black text-white md:px-8 md:ml-10 ml-20 px-6 md:py-3 py-3 md:text-xl rounded-full hover:bg-[#479FA8] ease-in duration-200">Converse
                 com a gente</a>
         </div>
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_energia.jpg" alt="Pdi Energia" class="hidden md:block w-full"> 
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_energia.jpg" alt="Mulher usando EPI olhando para tablet" class="hidden md:block w-full"> 
     </div>
 </template>
 

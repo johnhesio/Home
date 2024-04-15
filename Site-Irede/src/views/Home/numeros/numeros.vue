@@ -43,13 +43,13 @@ export default defineComponent({
 </script>
 
 <template>
-    <h1 class="text-xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4">Principais Indicadores</h1>
+    <h2 class="text-xl font-bold text-center pb-6 md:text-4xl md:pb-10 md:pt-4 text-black">Principais Indicadores</h2>
     <div class="flex flex-row flex-wrap">
         <div class="w-1/2 sm:w-1/4 md:w-1/4 mb-4 px-2 " v-for="link in links">
             <div class="flex flex-col justify-center items-center md:pt-5">
                 <img :src="link.image" :alt="link.imageAlt" class="block h-20 md:h-[100px]">
             </div>
-            <div class="p-4 flex flex-col justify-center items-center">
+            <div class="p-4 flex flex-col justify-center items-center text-black">
                 <p class="text-2xl font-bold text-center pb-">{{ link.cardTitle }}</p>
                 <p class="text-center">{{ link.cardText }}</p>
             </div>

@@ -9,7 +9,7 @@ export default defineComponent({
 
 <template>
    <div class="relative">
-        <img src="../../../assets/Imagens/empreendedorismo/empreendedorismo_capa.jpg" alt="Empreendedorismo na Indústria de TIC"
+        <img src="../../../assets/Imagens/empreendedorismo/empreendedorismo_capa.jpg" alt="Capa para Empreendedorismo na Indústria de TIC"
             class="w-full">
         <div class="absolute md:top-24 md:w-[50%] top-5 md:pl-32 pl-8 w-[50%]">
             <h1 class="md:text-8xl font-bold text-[#8B47FE] text-xl">Empreendedorismo na Indústria de TIC</h1>

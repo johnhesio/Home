@@ -16,34 +16,42 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAlt:"Ícone de comunicação",
                 imageText: "Comunicação e relacionamento interpessoal",
             },
             {
                 image: image2,
+                imageAlt:"Ícone de comunição em inglês",
                 imageText: "Inglês para profissional de TIC",
             },
             {
                 image: image3,
+                imageAlt:"Ícone de Quality Assurance",
                 imageText: "Quality assurance",
             },
             {
                 image: image4,
+                imageAlt:"Ícone de fullstack",
                 imageText: "FullStack",
             },
             {
                 image: image5,
+                imageAlt:"Ícone de desenvolvimento ios e android",
                 imageText: "Desenvolvimento iOS e android",
             },
             {
                 image: image6,
+                imageAlt:"Ícone de empreendedorismo",
                 imageText: "Empreendedorismo e inovação",
             },
             {
                 image: image7,
+                imageAlt:"Ícone de inteligência artificial",
                 imageText: "Inteligência artificial",
             },
             {
                 image: image8,
+                imageAlt:"Ícone de java",
                 imageText: "Java",
             },
 
@@ -58,13 +66,13 @@ export default defineComponent({
 <template>
     <div class="relative w-full flex-col hidden md:block">
         <div class="top-0 md:absolute">
-            <h1
+            <h2
                 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 md:pb-10 pt-8 pb-8 md:text-left text-4xl text-center md:pl-10">
-                Áreas de Conhecimento</h1>
+                Áreas de Conhecimento</h2>
             <div class="flex flex-row flex-wrap gap-1 md:ml-8 justify-center md:justify-start md:w-2/3">
                 <div class="w-[45%] md:w-1/5 md:py-5" v-for="link in links">
                     <div class="flex justify-center">
-                        <img :src="link.image" alt="" class="w-[150px]">
+                        <img :src="link.image" :alt="link.imageAlt" class="w-[150px]">
                     </div>
                     <div class="flex flex-col justify-center items-center">
                         <p class="text-center text-[16px] md:px-20 px-2 pb-2 text-[#000]">{{ link.imageText }}</p>

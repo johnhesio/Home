@@ -8,13 +8,13 @@ export default defineComponent({ name: "restic_12" })
     <!--Web-->
     <div class="relative w-full flex-col hidden md:block">
         <div class="top-0 md:absolute">
-            <h1 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
-                RESTIC 12</h1>
-            <h2
+            <h2 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
+                RESTIC 12</h2>
+            <h3
                 class="text-[#8B47FE] md:text-4xl font-regular md:pt-3  pt-8 md:text-left text-4xl text-center md:pl-10">
-                Tecnologias imersivas</h2>
+                Tecnologias imersivas</h3>
             <div class="flex flex-row flex-wrap gap-1 md:ml-8 justify-center md:justify-start w-[80%]">
-                <div class="w-[45%] md:w-3/5 md:py-5 text-xl pl-3">
+                <div class="w-[45%] md:w-3/5 md:py-5 text-xl pl-3 text-black">
                     <p class="py-3">Iniciado em 2023, com 20 meses de duração;</p>
                     <p class="py-3">Desenvolvimento e implantação de tecnologias imersivas para plataforma EAD​;</p>
                     <p class="py-3">Capacitação de 500 alunos​;</p>
@@ -39,9 +39,9 @@ export default defineComponent({ name: "restic_12" })
                 </div>
                 <div class="">
                     <div class="flex w-full pt-10">
-                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_01.png" alt="Restic 12 01"
+                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_01.png" alt="Restic 12 imagem 1"
                             class="w-[280px] mx-5 rounded-xl">
-                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_02.png" alt="Restic 12 02"
+                        <img src="../../../assets/Imagens/capacitacao/capacitacao_restic_12_img_02.png" alt="Restic 12 imagem 2"
                             class="w-[280px] mx-5 rounded-xl">
                     </div>
                 </div>

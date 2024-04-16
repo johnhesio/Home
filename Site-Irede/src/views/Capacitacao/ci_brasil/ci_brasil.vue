@@ -11,16 +11,16 @@ export default defineComponent({
 <template>
     <!--Web-->
     <div class="hidden md:block">
-        <h1 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
-            CI Brasil</h1>
-        <h2 class="text-[#8B47FE] md:text-4xl font-regular md:pt-3  pt-8 md:text-left text-4xl text-center md:pl-10">
-            Microeletrônica</h2>
+        <h2 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
+            CI Brasil</h2>
+        <h3 class="text-[#8B47FE] md:text-4xl font-regular md:pt-3  pt-8 md:text-left text-4xl text-center md:pl-10">
+            Microeletrônica</h3>
         <div class="flex flex-row">
             <div class="w-[40%] mb-10 ml-10 my-2 ">
                 <img src="../../../assets/Imagens/capacitacao/capacitacao_ci_brasil.jpg" alt="Capacitação CI Brasil"
                     class="rounded-3xl w-full">
             </div>
-            <div class="w-[50%] md:mb-10 md:mx-10 my-2 text-xl">
+            <div class="w-[50%] md:mb-10 md:mx-10 my-2 text-xl text-black">
                 <p class="mb-5 text-center md:text-left ">
                     Iniciado em 2023, com 36 meses de duração;
                 </p>
@@ -43,9 +43,9 @@ export default defineComponent({
                 </p>
             </div>
         </div>
-        <h1 class="text-[#8B47FE] md:text-7xl font-bold md:text-left text-4xl text-center md:pl-10 w-[65%]">
-            Mais de 10.000 pessoas <span class="text-black"> em capacitação </span></h1>
-        <div class="flex flex-row">
+        <h2 class="text-[#8B47FE] md:text-7xl font-bold md:text-left text-4xl text-center md:pl-10 w-[65%]">
+            Mais de 10.000 pessoas <span class="text-black"> em capacitação </span></h2>
+        <div class="flex flex-row text-black">
             <div class="w-[50%] md:mb-10 md:mx-10 my-2 text-xl pt-10">
                 <p class="mb-5 text-center md:text-left ">
                     Capacitação Tecnológica de Recursos Humanos em áreas de interesse do mercado de TIC;

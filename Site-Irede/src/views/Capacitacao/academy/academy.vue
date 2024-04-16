@@ -6,15 +6,16 @@ export default defineComponent({ name: "academy" })
 
 <template>
     <div class="hidden md:block">
-        <img src="../../../assets/Imagens/capacitacao/capacitacao_ios_tech_academy.jpg" alt="Capacitação ios tech academy">
-        <h1 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
-            iOS Tech Academy</h1>
+        <img src="../../../assets/Imagens/capacitacao/capacitacao_ios_tech_academy.jpg"
+            alt="Capacitação ios tech academy">
+        <h2 class="text-[#8B47FE] md:text-7xl font-bold md:pt-16 pt-8 md:text-left text-4xl text-center md:pl-10">
+            iOS Tech Academy</h2>
         <div class=" flex flex-wrap">
             <div class="w-1/2 py-5 text-xl pl-3 ">
-                <h2
+                <h3
                     class="text-[#8B47FE] md:text-4xl font-regular md:pt-3  pt-8 md:text-left text-4xl text-center md:pl-7">
-                    Tech Academy</h2>
-                <div class=" w-[90%]">
+                    Tech Academy</h3>
+                <div class=" w-[90%] text-black">
                     <p class="py-3 px-7">O programa consiste da disseminação, promoção e incentivo à adoção de formação
                         em
                         regime de tempo integral, através da complementaridade de conteúdos da área de tecnologia da
@@ -51,14 +52,12 @@ export default defineComponent({ name: "academy" })
         </div>
         <div class=" flex flex-wrap">
             <div class="w-1/2 py-5 text-xl pl-3 ">
-                <h2
+                <h3
                     class="text-[#8B47FE] md:text-4xl font-regular md:pt-3 pt-8 md:text-left text-4xl text-center md:pl-7">
-                    Apple Develope academy</h2>
+                    Apple Develope academy</h3>
                 <div class=" w-[90%]">
                     <p class="py-3 px-7">Programa de educação, inovação e desenvolvimento, com a finalidade de capacitar
                         alunos das mais diversas áreas para o desenvolvimento de produtos nas plataformas Apple.
-
-
                     </p>
                     <p class="py-3 px-7">Nós seguimos uma metodologia baseada em desafios (CBL), que traz problemas do
                         mundo

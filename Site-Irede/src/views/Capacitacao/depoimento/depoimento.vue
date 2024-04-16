@@ -11,18 +11,21 @@ export default defineComponent({
         let links = [
             {
                 image: image1,
+                imageAlt:"Gabriel Gurgueira que fez parte do academy",
                 textTittle: "Técnico em Informática – IFCE, Bacharel em Sistemas e Mídias Digitais – UFC",
                 text: "O Academy deu acesso ao que precisávamos para nos profissionalizarmos. Contato com pessoas, equipamentos, bolsas de estudos, capacitação e a metodologia criou o ambiente ideal para o Mercadapp sair da ideação para conclusão do seu MVP (Minimum Viable Product).",
                 textPeople: "Gabriel Gurgueira",
             },
             {
                 image: image2,
+                imageAlt:"Gabriela Bezerra que fez parte da capacitação ",
                 textTittle: "Bacharel em Engenharia da Computação – IFCE, Especialista em Computação Aplicada a Educação – USP",
                 text: "A capacitação foi um divisor de águas na minha vida. Não me adaptava no ensino tradicional, o CBL  me mudou completamente, através da metodologia, fui capaz de desenvolver autonomia para aprender a programar ao mesmo tempo em que executava outras funções.",
                 textPeople: "Gabriela Bezerra",
             },
             {
                 image: image3,
+                imageAlt:"Eduardo Borges que fez parte dos nossos programas",
                 textTittle: "Mestre em Administração - UFC Análise e desenvolvimento de Sistemas - UNIFOR",
                 text: "Os professores se destacam pela excelência, sendo altamente capacitados e dedicados a transmitir os conteúdos aos alunos, integrando de maneira eficaz teoria e prática. Incorporam diversas Hard Skills cruciais para a formação profissional, abordadas ao longo de nossa jornada educacional por meio de uma metodologia ágil.",
                 textPeople: "Eduardo Borges",
@@ -50,7 +53,7 @@ export default defineComponent({
                             <div class="justify-center">
                                 <div class="flex justify-center w-full">
                                     <div class="relative">
-                                        <img :src="link.image"
+                                        <img :src="link.image" :alt="link.imageAlt"
                                             class="dark:shadow-xl rounded-full align-middle absolute top-[-80px] right-[-80px] max-w-[150px]" />
                                     </div>
                                 </div>

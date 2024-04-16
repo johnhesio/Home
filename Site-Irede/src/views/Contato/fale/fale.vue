@@ -6,12 +6,12 @@ export default defineComponent({
 </script>
 
 <template>
-    <img src="../../../assets/Imagens/contato/contato_capa.jpg" alt="Contato Imagem">
+    <img src="../../../assets/Imagens/contato/contato_capa.jpg" alt="Homem moreno com telefone no ouvido">
     <div class="w-full ">
         <h1 class="font-bold text-[#8b47fe] md:text-6xl text-4xl text-center md:pt-10 pt-4">Fale Conosco</h1>
         <div class="flex md:flex-row flex-col justify-center md:pt-10 ">
             <div class=" md:mx-2">
-                <p class=" md:text-2xl text-xl md:text-left text-center">Entre em contato conosco através do formulário ou através dos contatos</p>
+                <p class=" md:text-2xl text-xl md:text-left text-center text-black">Entre em contato conosco através do formulário ou através dos contatos</p>
                 <div class="flex md:flex-row flex-col">
                     <div class="bg-[#f8F8F8] md:w-[48%] flex md:px-5 md:py-2 md:mx-2 rounded-2xl md:mt-2 my-4">
                         <img src="../../../assets/Imagens/contato/icones_contato/telefone.svg" alt="Icone Telefone" class="w-[60px]">
@@ -22,8 +22,8 @@ export default defineComponent({
                     </div>
                     <div class="bg-[#f8F8F8] md:w-[48%] flex md:px-5 md:py-2 md:mx-2 rounded-2xl md:mt-2 my-4">
                         <img src="../../../assets/Imagens/contato/icones_contato/email.svg" alt="Icone Email" class="w-[60px]">
-                        <div class="flex flex-col text-xl md:pl-2">
-                            <h2 class="font-bold">Email</h2>
+                        <div class="flex flex-col text-xl md:pl-2 text-black">
+                            <h3 class="font-bold">Email</h3>
                             <p>contato@irede.org.br</p>
                         </div>
                     </div>

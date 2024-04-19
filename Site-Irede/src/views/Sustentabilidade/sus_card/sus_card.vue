@@ -35,7 +35,8 @@ export default defineComponent({
 
 <template>
     <div class="">
-        <img src="../../../assets/Imagens/pdi/pdi/pdi_sustentabilidade_capa.jpg" alt="" class="w-full">
+        <img src="../../../assets/Imagens/pdi/pdi/pdi_sustentabilidade_capa.jpg" alt="Árvores de florestas altas verdes"
+            class="w-full">
         <h1 class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
             Sustentabilidade</h1>
         <div class="flex flex-wrap justify-center md:text-xl">

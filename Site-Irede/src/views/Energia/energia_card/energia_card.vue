@@ -10,26 +10,32 @@ export default defineComponent({
     name: "energia_card",
     setup() {
         let links = [
-            {
+        {
                 image: image1,
+                imageAlt:"Ícone de segurança e predição de falhas",
                 imageText: "Identificação e predição de falhas",
             },
             {
                 image: image2,
+                imageAlt:"Ícone de ambientes virtuais",
                 imageText: "Ambiente virtual para capacitação",
             },
             {
                 image: image3,
+                imageAlt:"Ícone de medidores inteligentes",
                 imageText: "Medidores inteligentes",
             },
             {
                 image: image4,
+                imageAlt:"Ícone inspeção semiautônoma",
                 imageText: "Inspeção semiautônoma",
             },
             {
                 image: image5,
-                imageText: "Sistema de Monitoramento de uso do EPI",
+                imageAlt:"Ícone de sistema de uso de EPI",
+                imageText: "Sistema de monitoramento de uso do EPI",
             },
+
 
         ]
         return {
@@ -48,7 +54,7 @@ export default defineComponent({
             <div class="flex flex-row flex-wrap gap-4 justify-center mb-8">
                 <div class="w-1/3 md:w-1/6 md:h-[200px] md:mb-10" v-for="link in links">
                     <div class="flex justify-center">
-                        <img :src="link.image" alt="" class="w-[120px]">
+                        <img :src="link.image" :alt="link.imageAlt" class="w-[120px]">
                     </div>
                     <div class="flex flex-col justify-center items-center">
                         <p class="text-center">{{ link.imageText }}</p>
@@ -64,12 +70,12 @@ export default defineComponent({
     <div class="w-full">
         <div class="md:w-2/2 flex md:flex-row flex-col">
             <div class="flex flex-col md:w-1/2">
-                <h1
+                <h2
                     class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
-                    Projeto</h1>
+                    Projeto</h2>
                 <div class="flex flex-wrap justify-center md:text-xl">
                     <ul
-                        class="md:mb-10 list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4 ">
+                        class="md:mb-10 list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4 text-black">
                         <li>Hardware para medição e controle de energia e renováveis;
                         </li>
                         <li>Firmware para medição e controle de energia;​
@@ -93,12 +99,12 @@ export default defineComponent({
             </div>
 
             <div class=" flex flex-col md:w-1/2">
-                <h1
+                <h3
                     class="text-[#8B47FE] md:text-6xl font-bold md:text-left text-4xl text-center pt-10 md:pl-20 md:pb-5">
-                    Tecnologias</h1>
+                    Tecnologias</h3>
                 <div class="flex flex-wrap justify-center md:text-xl">
                     <ul
-                        class="md:h-[375px] md:mb-10 list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4 md:w-[700px]">
+                        class="md:h-[375px] md:mb-10 text-black list-disc list-inside md:mx-10 bg-slate-100 rounded-xl p-5 shadow-lg my-4 md:w-[700px]">
                         <li>Sistemas Embarcados;
                         </li>
                         <li>Visão Computacional;

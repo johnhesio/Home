@@ -13,7 +13,7 @@ export default defineComponent({ name: "capa_dev_soft", })
                 <h1 class="font-bold md:text-6xl text-[18px] text-[#8b47fe] md:pb-10 w-[60%] pb-2">Residência
                     em Desenvolvimento
                     de Aplicativos Mobile</h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">O RESTIC 12 se destaca como um <i>case</i> exemplar
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block text-black">O RESTIC 12 se destaca como um <i>case</i> exemplar
                     no campo da capacitação em desenvolvimento de
                     aplicativos
                     mobile (Android e iOS). Esta iniciativa ambiciosa reuniu 500 alunos em um programa de Residência de
@@ -25,8 +25,8 @@ export default defineComponent({ name: "capa_dev_soft", })
             </div>
         </div>
         <img src="../../../assets/Imagens/cases_de_sucesso/restic_12_residencia_em_desenvolvimento_de_aplicativos/restic_12_residencia_em_desenvolvimento_de_aplicativos_capa_2.jpg"
-            alt="restic 12 residencia em desenvolvimento de aplicativos" class="">
-        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-2 text-center py-2">O RESTIC 12 se destaca como um case exemplar no campo
+            alt="capa restic 12 residencia em desenvolvimento de aplicativos" class="">
+        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-2 text-center py-2 text-black">O RESTIC 12 se destaca como um case exemplar no campo
             da capacitação em desenvolvimento de
             aplicativos
             mobile (Android e iOS). Esta iniciativa ambiciosa reuniu 500 alunos em um programa de Residência de

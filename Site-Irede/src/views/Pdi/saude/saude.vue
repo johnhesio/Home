@@ -14,7 +14,7 @@ export default defineComponent({ name: "saude" })
                 <h3
                     class="text-[#8B47FE] md:text-4xl font-medium md:text-left text-2xl text-center py-3 md:pl-5 md:pb-5">
                     Projeto</h3>
-                <ul class="list-disc list-inside">
+                <ul class="list-disc list-inside text-black">
                     <li>Aperfeiçoamento da precisão do diagnóstico precoce através da comparação de imagens de mamografia;
                     </li>
                     <li>Inteligência artificial na realização de avaliação corporal realizada por foto;​
@@ -23,7 +23,6 @@ export default defineComponent({ name: "saude" })
                     </li>
                     <li>Desenvolvimento de treinamentos médicos em ambiente imersivos, permitindo uma prática mais realista e eficaz;
                     </li>
-                    
                 </ul>
                 
             </div>

@@ -9,12 +9,12 @@ export default defineComponent({ name: "impacto", })
     <div class="w-full flex md:flex-row flex-col">
         <div class="md:w-[50%] flex justify-center py-5 ">
             <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico_e_quality_assurance/devops_basico_e_quality_assurance_img01.jpg"
-                alt="" class="md:w-[60%] w-[80%] rounded-2xl">
+                alt="homem moreno trabalhando em um notebook" class="md:w-[60%] w-[80%] rounded-2xl">
         </div>
         <div class="md:w-1/2 md:py-5 md:text-left text-center">
             <div class="md:pb-8 pb-4">
                 <h2 class="font-bold md:text-4xl text-2xl pb-4 text-[#8b47fe]">Impacto Social e Econômico</h2>
-                <p class="md:text-xl md:w-[80%] md:px-0 px-4">O Programa IT Talent não apenas atende às necessidades do
+                <p class="md:text-xl md:w-[80%] md:px-0 px-4 text-black">O Programa IT Talent não apenas atende às necessidades do
                     setor de Tecnologia da Informação, mas também contribui para o desenvolvimento social e econômico da
                     região. Ao formar profissionais capacitados, a iniciativa fortalece o mercado de trabalho local,
                     impulsionando a inovação e a competitividade.</p>

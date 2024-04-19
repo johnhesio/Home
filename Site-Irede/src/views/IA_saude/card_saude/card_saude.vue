@@ -11,7 +11,8 @@ export default defineComponent({ name: "saude_card", })
             <div class="absolute md:w-[60%] md:top-24 md:left-20 left-5 top-5">
                 <h1 class="font-bold md:text-6xl text-[25px] text-[#8b47fe] md:pb-10 w-[80%] pb-2">IA Aplicada à Saúde
                 </h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A IA aplicada à saúde se destaca como um <i>case</i> exemplar,
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block text-black">A IA aplicada à saúde se destaca
+                    como um <i>case</i> exemplar,
                     empregando inteligência artificial (IA) para transformar a abordagem tradicional de diagnósticos de
                     mamografias. Este projeto inovador não apenas agiliza o processo de análise, mas também eleva a
                     precisão na identificação precoce de possíveis diagnósticos, marcando um avanço significativo na
@@ -21,13 +22,14 @@ export default defineComponent({ name: "saude_card", })
                     com a gente</a>
             </div>
         </div>
-        <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_capa.jpg" alt=""
-            class="Ia aplicada a saude capa">
-        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-4 text-center py-2">O VMI MÉDICA se destaca como um case exemplar,
-                    empregando inteligência artificial (IA) para transformar a abordagem tradicional de diagnósticos de
-                    mamografias. Este projeto inovador não apenas agiliza o processo de análise, mas também eleva a
-                    precisão na identificação precoce de possíveis diagnósticos, marcando um avanço significativo na
-                    área da saúde.</p>
+        <img src="../../../assets/Imagens/cases_de_sucesso/ia_aplicada_a_saude/ia_aplicada_a_saude_capa.jpg"
+            alt="Capa Ia aplicada a saude" class="">
+        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-4 text-center py-2 text-black">O VMI MÉDICA se destaca
+            como um case exemplar,
+            empregando inteligência artificial (IA) para transformar a abordagem tradicional de diagnósticos de
+            mamografias. Este projeto inovador não apenas agiliza o processo de análise, mas também eleva a
+            precisão na identificação precoce de possíveis diagnósticos, marcando um avanço significativo na
+            área da saúde.</p>
     </div>
 </template>
 

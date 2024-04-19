@@ -13,7 +13,7 @@ export default defineComponent({ name: "homero", })
                 <h1 class="font-bold md:text-8xl text-[22px] text-[#8b47fe] md:pb-10 md:w-[70%] w-[50%] pb-2">Homero
                     Plataforma
                     de EAD Adaptativa</h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A plataforma Homero emerge como um <i>case</i>
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block text-black">A plataforma Homero emerge como um <i>case</i>
                     notável no cenário de Educação a Distância (EAD), destacando-se por sua abordagem inovadora e
                     eficaz. Ao integrar Aprendizagem Adaptativa, Mineração de Conteúdo, Diálogo e Visão Computacional, o
                     Homero oferece uma experiência educacional única e personalizada.</p>
@@ -24,7 +24,7 @@ export default defineComponent({ name: "homero", })
         </div>
         <img src="../../../assets/Imagens/cases_de_sucesso/plataforma_ead_adaptativa_homero/plataforma_ead_adaptativa_capa.jpg"
             alt="Plataforma EAD Adaptativa Imagem Capa" class="">
-        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-4 text-center py-2">A plataforma Homero emerge como um
+        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-4 text-center py-2 text-black">A plataforma Homero emerge como um
             case notável no cenário de Educação a Distância (EAD), destacando-se por sua abordagem inovadora e eficaz.
             Ao integrar Aprendizagem Adaptativa, Mineração de Conteúdo, Diálogo e Visão Computacional, o Homero oferece
             uma experiência educacional única e personalizada.</p>

@@ -7,9 +7,9 @@ export default defineComponent({ name: "sucesso", })
 
 <template>
     <div>
-        <div class="relative ">
+        <div class="relative">
             <div class="absolute text-center md:top-28 md:px-36 px-2 top-10">
-                <p class="md:pb-10 md:text-4xl text-2xl pb-5">O sucesso do Homero é mais do que uma história
+                <p class="md:pb-10 md:text-4xl text-2xl pb-5 text-black">O sucesso do Homero é mais do que uma história
                     de avanços tecnológicos; é uma narrativa de transformação educacional, onde a inovação impulsiona o
                     progresso e a excelência na educação a distância.</p>
                 <a href="https://api.whatsapp.com/send?phone=558538795344"

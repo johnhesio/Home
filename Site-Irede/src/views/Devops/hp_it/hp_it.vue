@@ -10,9 +10,11 @@ export default defineComponent({ name: "hp_it", })
         <div class="relative flex flex-col">
             <div class="absolute md:w-[50%] md:top-20 md:left-20 left-5 top-10">
                 <h2 class="font-bold md:text-3xl text-[#8b47fe] md:pb-2">HP IT Talent</h2>
-                <h1 class="font-bold md:text-8xl text-[22px] text-[#8b47fe] md:w-full w-[70%] md:pb-10 pb-2">DevOps Básico
+                <h1 class="font-bold md:text-8xl text-[22px] text-[#8b47fe] md:w-full w-[70%] md:pb-10 pb-2">DevOps
+                    Básico
                     e Quality Assurance</h1>
-                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block">A parceria entre a Universidade Estadual do
+                <p class="md:pb-10 md:text-xl md:w-[80%] hidden md:block text-black">A parceria entre a Universidade
+                    Estadual do
                     Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um <i>case</i> inspirador de sucesso: o
                     Programa IT Talent. Este projeto inovador abre portas para o futuro ao disponibilizar 80 vagas em um
                     curso na área de Tecnologia da Informação, com uma duração de cinco meses.</p>
@@ -21,10 +23,12 @@ export default defineComponent({ name: "hp_it", })
                     com a gente</a>
             </div>
         </div>
-        <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico_e_quality_assurance/devops_basico_e_quality_assurance_capa.jpg" alt="Devops"
-            class="w-full">
-        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-6 text-center py-2">A parceria entre a Universidade
-            Estadual do Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um <i>case</i> inspirador de sucesso: o
+        <img src="../../../assets/Imagens/cases_de_sucesso/devops_basico_e_quality_assurance/devops_basico_e_quality_assurance_capa.jpg"
+            alt="Pessoas juntas trabalhando" class="w-full">
+        <p class="md:pb-10 md:text-xl md:w-[80%] md:hidden px-6 text-center py-2 text-black">A parceria entre a
+            Universidade
+            Estadual do Ceará (UECE), HP, IREDE e o Instituto Atlântico culminou em um <i>case</i> inspirador de
+            sucesso: o
             Programa IT Talent. Este projeto inovador abre portas para o futuro ao disponibilizar 80 vagas em um curso
             na área de Tecnologia da Informação, com uma duração de cinco meses.</p>
     </div>

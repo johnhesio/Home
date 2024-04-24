@@ -14,21 +14,21 @@ export default defineComponent({
                 imageAlt:"Ícone para a página de PDI",
                 name: "PD&I",
                 buttonLink: "/pdi",
-                buttonText: "Sabia Mais!",
+                buttonText: "Saiba Mais!",
             },
             {
                 image: image2,
                 imageAlt:"Ícone para a página de Capacitação",
                 name: "Capacitação",
                 buttonLink: "/capacitacao",
-                buttonText: "Sabia Mais!",
+                buttonText: "Saiba Mais!",
             },
             {
                 image: image3,
                 imageAlt:"Ícone para a página de Empreendedorismo",
                 name: "Empreendedorismo",
                 buttonLink: "/empreendedorismo",
-                buttonText: "Sabia Mais!",
+                buttonText: "Saiba Mais!",
                 
             },
             {
@@ -36,7 +36,7 @@ export default defineComponent({
                 imageAlt:"Ícone para a página de Consultoria",
                 name: "Consultoria",
                 buttonLink: "/consultoria",
-                buttonText: "Sabia Mais!",
+                buttonText: "Saiba Mais!",
             },
         ]
         return {

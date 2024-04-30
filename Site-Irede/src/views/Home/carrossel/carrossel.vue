@@ -68,6 +68,8 @@ export default defineComponent({
 
     <template #item="slotProps">
 
+<!--Carroussel da Esquerda-->
+
       <div class="w-full relative" v-if="slotProps.item.left">
         <img :src="slotProps.item.image" :alt="slotProps.item.imageAlt" style="width: 100%; display: block" />
         <div class="absolute top-0 left-0 h-screen md:px-20 px-10 py-5">
@@ -89,6 +91,8 @@ export default defineComponent({
         </div>
       </div>
 
+<!--Carroussel da Direita-->
+
       <div class="md:w-full relative" v-else>
         <img :src="slotProps.item.image" :alt="slotProps.item.imageAlt" style="width: 100%; display: block" />
         <div class="absolute flex flex-row justify-end top-0 left-0 h-screen px-20">
@@ -108,6 +112,7 @@ export default defineComponent({
           </div>
         </div>
       </div>
+
     </template>
   </Galleria>
 </template>
